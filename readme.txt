@@ -14,7 +14,7 @@ A starter theme called Agility WP.
 
 == Description ==
 
-Creative WordPress Theme
+WordPress Theme
 
 == Installation ==
 

@@ -1,9 +1,9 @@
 /*!
 Theme Name: Agility WP
 Theme URI: http://underscores.me/
-Author: WayOutWorks
-Author URI: https://wayoutworks.in
-Description: Creative WordPress Theme
+Author: Lucent Themes
+Author URI: https://lucenthemes.com/
+Description: WordPress Theme
 Version: 1.0.0
 Tested up to: 5.4
 Requires PHP: 5.6
@@ -50,6 +50,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 --------------------------------------------------------------*/
 
+
 // Import variables and mixins.
 @import "abstracts/abstracts";
 
@@ -60,6 +61,11 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 /* Normalize
 --------------------------------------------- */
 @import "generic/normalize";
+
+/* Bootstrap
+--------------------------------------------- */
+@import "framework/bootstrap";
+
 
 /* Box sizing
 --------------------------------------------- */

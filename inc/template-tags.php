@@ -138,6 +138,7 @@ if ( ! function_exists( 'awp_post_thumbnail' ) ) :
 					the_post_thumbnail(
 						'post-thumbnail',
 						array(
+                            'class' => 'img-fluid h-100 w-100',
 							'alt' => the_title_attribute(
 								array(
 									'echo' => false,

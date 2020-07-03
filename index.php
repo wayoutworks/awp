@@ -15,6 +15,12 @@
 get_header();
 ?>
 
+<div class="container">
+    <div class="row mb-5">
+        <div class="col-lg-8 col-12 pl-lg-0">
+            <h1 class="blog-section-title pb-4 mb-4 pt-4 mt-4 font-italic border-bottom">
+                From the <span>WayOutWorks</span>
+            </h1>
 	<main id="primary" class="site-main">
 
 		<?php
@@ -37,7 +43,7 @@ get_header();
 				 * If you want to override this in a child theme, then include a file
 				 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
 				 */
-				get_template_part( 'template-parts/content', get_post_type() );
+				get_template_part( 'template-parts/content');
 
 			endwhile;
 
@@ -50,7 +56,8 @@ get_header();
 		endif;
 		?>
 
-	</main><!-- #main -->
+    </main><!-- #main -->
+    </div>
 
 <?php
 get_sidebar();

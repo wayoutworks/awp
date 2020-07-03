@@ -132,8 +132,8 @@ function awp_widgets_init() {
 			'description'   => esc_html__( 'Add widgets here.', 'awp' ),
 			'before_widget' => '<section id="%1$s" class="widget %2$s">',
 			'after_widget'  => '</section>',
-			'before_title'  => '<h2 class="widget-title">',
-			'after_title'   => '</h2>',
+			'before_title'  => '<h3 class="widget-title">',
+			'after_title'   => '</h3>',
 		)
 	);
 }
@@ -146,7 +146,8 @@ function awp_scripts() {
 	wp_enqueue_style( 'awp-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'awp-style', 'rtl', 'replace' );
 
-	wp_enqueue_script( 'awp-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
+    wp_enqueue_script( 'awp-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
+    wp_enqueue_style('awp-font', '//fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
@@ -187,3 +188,15 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 if ( class_exists( 'WooCommerce' ) ) {
 	require get_template_directory() . '/inc/woocommerce.php';
 }
+
+/**
+ * Change Sidebar WIdget Titile Heading Tag
+ */
+
+// add_filter( 'astra_widgets_init', 'widget_title_tag', 10, 1 );
+// function widget_title_tag( $atts ) {
+// $atts['before_title'] = '<h2 class="widget-title">';
+// $atts['after_title'] = '</h2>';
+
+// return $atts;
+// }

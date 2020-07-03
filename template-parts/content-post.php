@@ -9,27 +9,22 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class('card mb-3'); ?>>
-<div class="row g-0">
+<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
     <?php
     if ( has_post_thumbnail() ) {
         ?>
-        <div class="img-square-wrapper col-md-5">
-            <?php awp_post_thumbnail('img-fluid h-100 w-100'); ?>
-        </div>
+            <?php awp_post_thumbnail(); ?>
         <?php
         }
         ?>
-    <div class="card-body col-md-7">
 	<header class="entry-header">
 		<?php
-		$categories_list = get_the_category_list( esc_html__( ', ', 'awp' ) );
-        if ( $categories_list ) {
-            /* translators: 1: list of categories. */
-            printf( '<span class="cat-links">' . esc_html__( '%1$s', 'awp' ) . '</span>', $categories_list ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
-        }
+		if ( is_singular() ) :
+			the_title( '<h1 class="entry-title">', '</h1>' );
+		else :
 			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
+		endif;
 
 		if ( 'post' === get_post_type() ) :
 			?>
@@ -46,7 +41,7 @@
 	<div class="entry-content">
         <?php
 
-            the_excerpt(
+            the_content(
                 sprintf(
                     wp_kses(
                         /* translators: %s: Name of current post. Only visible to screen readers */
@@ -70,6 +65,9 @@
 		);
 		?>
 	</div><!-- .entry-content -->
+	<footer class="entry-footer">
+        <?php awp_entry_footer(); ?>
+    </footer><!-- .entry-footer -->
 </div><!--.card-body -->
     </div><!--.row -->
 </article><!-- #post-<?php the_ID(); ?> -->

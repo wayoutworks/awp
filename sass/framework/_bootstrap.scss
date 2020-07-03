@@ -1,0 +1,150 @@
+$font-family-base: Raleway, "sans-serif", Helvetica, Roboto, Arial !default;
+
+
+$theme-colors: (
+  "primary": #ff4d64,
+  "secondary": #333333,
+  "accent": #fff2f7,
+  "light": #f8f9fa,
+) !default;
+
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+/**
+  * = AWP Styles
+  *
+  * CSS Styles for Theme
+  *
+  * ------------------------------------------------------------------------- */
+
+/*---------------------------------- *
+   *  Base
+   * -------------------------------- */
+// input {
+//   border-color: $input-border-color;
+//   border-style: solid;
+//   color: $primary;
+//   &:focus {
+//     outline: $primary auto 1px;
+//   }
+// }
+
+/*---------------------------------- *
+   *  Navigation
+   * -------------------------------- */
+
+//   .dropdown:hover .dropdown-menu {
+//     display: block;
+//     margin-top: 0; // remove the gap so it doesn't close
+//  }
+
+// .header-image {
+//   background-image: url("../assets/header.jpg");
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-position: center center;
+//   height: auto;
+//   padding-top: 250px;
+//   padding-bottom: 250px;
+//   & {
+//     position: relative;
+//     z-index: 1;
+//   }
+//   &::before {
+//     content: "";
+//     position: absolute;
+//     left: 0;
+//     top: 0;
+//     height: 100%;
+//     width: 100%;
+//     z-index: -1;
+//     background-color: #00010c;
+//     opacity: 0.5;
+//   }
+//   .site-branding {
+//     padding: 50px 40px;
+//     color: #fff;
+//     bottom: 0;
+//     display: block;
+//     left: 0;
+//     height: auto;
+//     padding-top: 0;
+//     position: absolute;
+//     width: 100%;
+//     .site-title {
+//       font-weight: 800;
+//     }
+//   }
+// }
+
+.blog-section-title {
+  font-family: "Playfair Display", serif;
+}
+
+article {
+  header.entry-header {
+    .entry-title {
+      a {
+        color: $black;
+      }
+    }
+    .entry-meta {
+      margin-bottom: ($spacer * 2);
+    }
+  }
+}
+
+.widget-area {
+  .widget-title {
+    margin-bottom: ($spacer * 2);
+  }
+  ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+    li {
+      margin-bottom: ($spacer * 0.6);
+    }
+  }
+  .tag-cloud {
+    a {
+      display: inline-block;
+      border: 1px solid;
+      padding: ($spacer * 0.4) ($spacer * 0.5);
+      margin: ($spacer * 0.2);
+    }
+  }
+  input[type="text"] {
+    width: 100%;
+    padding: ($spacer * 0.8) ($spacer * 1);
+  }
+  input[type="placeholder"] {
+    color: $input-focus-color;
+  }
+}
+
+// Post
+
+// .pagination-link {
+//   display: flex;
+//   justify-content: space-between;
+// }
+// footer {
+//   .footer-widgets {
+//     .widget-title {
+//       color: #fff;
+//       margin-bottom: ($spacer * 1.5);
+//     }
+//     .gallery-widget {
+//       span {
+//         font-size: ($font-size-base * 0.8);
+//       }
+//     }
+//   }
+//   .footer-info {
+//     border-top: $gray-700 1px solid;
+//     color: #fff;
+//   }
+// }

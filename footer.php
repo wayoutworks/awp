@@ -10,6 +10,8 @@
  */
 
 ?>
+</div><!-- .row -->
+</div><!-- .container -->
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
@@ -22,7 +24,7 @@
 			<span class="sep"> | </span>
 				<?php
 				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'awp' ), 'awp', '<a href="https://wayoutworks.in">WayOutWorks</a>' );
+				printf( esc_html__( 'Theme: %1$s by %2$s.', 'awp' ), 'awp', '<a href="https://lucenthemes.com/">Luncent Themes</a>' );
 				?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
