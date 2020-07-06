@@ -18,9 +18,13 @@
   },
   "devDependencies": {
     "@wordpress/scripts": "^12.0.0",
+    "cross-env": "^7.0.2",
     "dir-archiver": "^1.1.1",
+    "laravel-mix": "^5.0.4",
     "node-sass": "^4.14.0",
-    "rtlcss": "^2.5.0"
+    "resolve-url-loader": "^3.1.0",
+    "rtlcss": "^2.5.0",
+    "vue-template-compiler": "^2.6.11"
   },
   "rtlcssConfig": {
     "options": {
@@ -36,8 +40,8 @@
     "map": false
   },
   "scripts": {
-    "watch": "node-sass sass/ -o ./ --source-map true --output-style expanded --indent-type tab --indent-width 1 -w",
-    "compile:css": "node-sass sass/ -o ./ && stylelint '*.css' --fix || true && stylelint '*.css' --fix",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development -- --watch",
     "compile:rtl": "rtlcss style.css style-rtl.css",
     "lint:scss": "wp-scripts lint-style 'sass/**/*.scss'",
     "lint:js": "wp-scripts lint-js 'js/*.js'",

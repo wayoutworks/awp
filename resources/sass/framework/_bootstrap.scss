@@ -40,44 +40,43 @@ $theme-colors: (
 //     margin-top: 0; // remove the gap so it doesn't close
 //  }
 
-// .header-image {
-//   background-image: url("../assets/header.jpg");
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   background-position: center center;
-//   height: auto;
-//   padding-top: 250px;
-//   padding-bottom: 250px;
-//   & {
-//     position: relative;
-//     z-index: 1;
-//   }
-//   &::before {
-//     content: "";
-//     position: absolute;
-//     left: 0;
-//     top: 0;
-//     height: 100%;
-//     width: 100%;
-//     z-index: -1;
-//     background-color: #00010c;
-//     opacity: 0.5;
-//   }
-//   .site-branding {
-//     padding: 50px 40px;
-//     color: #fff;
-//     bottom: 0;
-//     display: block;
-//     left: 0;
-//     height: auto;
-//     padding-top: 0;
-//     position: absolute;
-//     width: 100%;
-//     .site-title {
-//       font-weight: 800;
-//     }
-//   }
-// }
+.header-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: auto;
+  padding-top: 250px;
+  padding-bottom: 250px;
+  & {
+    position: relative;
+    z-index: 1;
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-color: #00010c;
+    opacity: 0.5;
+  }
+  .site-branding {
+    padding: 50px 40px;
+    color: #fff;
+    bottom: 0;
+    display: block;
+    left: 0;
+    height: auto;
+    padding-top: 0;
+    position: absolute;
+    width: 100%;
+    .site-title {
+      font-weight: 800;
+    }
+  }
+}
 
 .blog-section-title {
   font-family: "Playfair Display", serif;

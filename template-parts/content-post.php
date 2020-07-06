@@ -68,6 +68,5 @@
 	<footer class="entry-footer">
         <?php awp_entry_footer(); ?>
     </footer><!-- .entry-footer -->
-</div><!--.card-body -->
-    </div><!--.row -->
+
 </article><!-- #post-<?php the_ID(); ?> -->

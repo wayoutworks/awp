@@ -16,7 +16,7 @@
     if ( has_post_thumbnail() ) {
         ?>
         <div class="img-square-wrapper col-md-5">
-            <?php awp_post_thumbnail('img-fluid h-100 w-100'); ?>
+            <?php awp_post_thumbnail(); ?>
         </div>
         <?php
         }
