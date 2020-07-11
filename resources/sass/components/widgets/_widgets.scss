@@ -1,13 +1,80 @@
-.widget {
+.widget-area {
+  padding-left: 3rem;
+  .widget {
     & {
-        padding-bottom: 0;
-        padding-right: 0;
-        padding-top: 3rem;
-        padding-left: 3rem;
+      padding-bottom: 0;
+      padding-right: 0;
+      padding-top: 3rem;
     }
 
-	// Make sure select elements fit in widgets.
-	select {
-		max-width: 100%;
-	}
+    label {
+      display: block;
+    }
+    input,
+    select {
+      width: 100%;
+      max-width: 100%;
+      padding: ($spacer * 0.8) ($spacer * 1);
+    }
+    input {
+      color: $input-focus-color;
+    }
+    input[type="submit"] {
+      font-weight: 600;
+    }
+  }
+  .sidebar-block {
+    border: 1px solid $accent;
+    padding: 0 37px 18px;
+    margin-bottom: 5rem;
+    &:first-child {
+      margin-top: 5rem;
+    }
+  }
+  .widget-title {
+    font-family: $accent-font;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    padding: 0 16px;
+    background-color: #fff;
+    z-index: 5;
+  }
+  ul {
+    margin-left: 0;
+    li {
+      margin-bottom: ($spacer * 0.6);
+    }
+  }
+  .widget_tag_cloud {
+    a {
+      display: inline-block;
+      font-size: 12px!important;
+      color: $white;
+      background-color:$primary;
+      padding: ($spacer * 0.4) ($spacer * 0.5);
+      margin: ($spacer * 0.2);
+    }
+  }
+  .widget_archive {
+    > ul {
+      list-style: none;
+      padding-left: 0;
+      margin-left: 0;
+      > li {
+        display: flex;
+        justify-content: space-between;
+        padding: 7px;
+        &:hover,
+        &:focus,
+        &:active {
+          background-color: #e9ecef;
+        }
+      }
+    }
+  }
 }

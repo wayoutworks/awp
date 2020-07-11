@@ -1,14 +1,16 @@
 $font-family-base: Raleway, "sans-serif", Helvetica, Roboto, Arial !default;
-
+$secondary-font: 'Playfair Display', serif;
+$accent-font: 'Catamaran', sans-serif;
 
 $theme-colors: (
   "primary": #ff4d64,
   "secondary": #333333,
-  "accent": #fff2f7,
+  "accent": #868e96,
   "light": #f8f9fa,
-) !default;
+  ) !default;
 
-
+  $primary-light: #f56e7f;
+  $input-color: $light;
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
@@ -79,7 +81,7 @@ $theme-colors: (
 }
 
 .blog-section-title {
-  font-family: "Playfair Display", serif;
+  font-family: $secondary-font;
 }
 
 article {
@@ -92,35 +94,6 @@ article {
     .entry-meta {
       margin-bottom: ($spacer * 2);
     }
-  }
-}
-
-.widget-area {
-  .widget-title {
-    margin-bottom: ($spacer * 2);
-  }
-  ul {
-    list-style: none;
-    padding-left: 0;
-    margin-left: 0;
-    li {
-      margin-bottom: ($spacer * 0.6);
-    }
-  }
-  .tag-cloud {
-    a {
-      display: inline-block;
-      border: 1px solid;
-      padding: ($spacer * 0.4) ($spacer * 0.5);
-      margin: ($spacer * 0.2);
-    }
-  }
-  input[type="text"] {
-    width: 100%;
-    padding: ($spacer * 0.8) ($spacer * 1);
-  }
-  input[type="placeholder"] {
-    color: $input-focus-color;
   }
 }
 

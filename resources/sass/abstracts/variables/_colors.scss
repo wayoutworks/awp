@@ -1,6 +1,6 @@
 $primary: #ff4d64;
 $secondary: #333333;
-$accent: #fff2f7;
+$accent: #eae9e7;
 $light: #f8f9fa;
 
 $color__background-body: #fff;
@@ -12,7 +12,7 @@ $color__background-ins: #fff9c0;
 
 $color__text-screen: #21759b;
 $color__text-input: #666;
-$color__text-input-focus: #111;
+$color__text-input-focus: $primary;
 $color__link: $primary;
 $color__link-visited: $primary;
 $color__link-hover: $secondary;
@@ -21,5 +21,5 @@ $color__text-main: #404040;
 $color__border-button: #ccc #ccc #bbb;
 $color__border-button-hover: #ccc #bbb #aaa;
 $color__border-button-focus: #aaa #bbb #bbb;
-$color__border-input: #ccc;
+$color__border-input: $accent;
 $color__border-abbr: #666;

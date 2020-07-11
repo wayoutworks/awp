@@ -9,7 +9,7 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class('card mb-3'); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class('card border-0 shadow-lg mb-5 bg-white rounded'); ?>>
 <div class="row g-0">
 
     <?php
