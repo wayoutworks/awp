@@ -118,16 +118,9 @@ article {
   }
   .read-more_tag {
       display: inline-block;
-    color: $dark;
     font-weight: 600;
     font-size: 12px;
-    &:focus,
-    &:visited {
-        color: $dark;
-    }
-    &:hover {
-        color: $primary-light;
-    }
+
   }
 }
 

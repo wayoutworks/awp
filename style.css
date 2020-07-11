@@ -11003,18 +11003,8 @@ article header.entry-header .entry-meta {
 
 article .read-more_tag {
   display: inline-block;
-  color: #343a40;
   font-weight: 600;
   font-size: 12px;
-}
-
-article .read-more_tag:focus,
-article .read-more_tag:visited {
-  color: #343a40;
-}
-
-article .read-more_tag:hover {
-  color: #f56e7f;
 }
 
 /* Box sizing
@@ -11429,6 +11419,10 @@ textarea {
 .page-links {
   clear: both;
   margin: 0 0 1.5em;
+}
+
+article .card-body {
+  padding: 2rem;
 }
 
 article .footer-meta {

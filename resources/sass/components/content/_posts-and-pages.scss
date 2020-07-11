@@ -23,6 +23,9 @@
 }
 
 article {
+    .card-body {
+        padding: 2rem;
+    }
   .footer-meta {
     display: flex;
     justify-content: space-between;
