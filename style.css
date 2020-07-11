@@ -11003,22 +11003,18 @@ article header.entry-header .entry-meta {
 
 article .read-more_tag {
   display: inline-block;
-  background-color: #ff4d64;
-  border-radius: 25px;
-  padding: 10px 20px;
-  color: #fff;
+  color: #343a40;
   font-weight: 600;
   font-size: 12px;
 }
 
 article .read-more_tag:focus,
 article .read-more_tag:visited {
-  color: #fff;
+  color: #343a40;
 }
 
 article .read-more_tag:hover {
-  background-color: #f56e7f;
-  color: #fff;
+  color: #f56e7f;
 }
 
 /* Box sizing

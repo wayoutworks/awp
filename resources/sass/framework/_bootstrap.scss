@@ -108,7 +108,7 @@ article {
     }
   header.entry-header {
     .entry-title {
-      a {
+    a {
         color: $black;
       }
     }
@@ -118,19 +118,15 @@ article {
   }
   .read-more_tag {
       display: inline-block;
-    background-color: $primary;
-    border-radius: 25px;
-    padding: 10px 20px;
-    color: $white;
+    color: $dark;
     font-weight: 600;
     font-size: 12px;
     &:focus,
     &:visited {
-        color: $white;
+        color: $dark;
     }
     &:hover {
-        background-color: $primary-light;
-        color: $white;
+        color: $primary-light;
     }
   }
 }
