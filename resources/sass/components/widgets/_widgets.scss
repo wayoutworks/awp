@@ -54,10 +54,15 @@
     a {
       display: inline-block;
       font-size: 12px!important;
-      color: $white;
-      background-color:$primary;
+      border:1px solid $primary;
+      border-radius: 3px;
       padding: ($spacer * 0.4) ($spacer * 0.5);
       margin: ($spacer * 0.2);
+      &:hover {
+          background: $primary-light;
+          color: $white;
+          border-radius: 0;
+      }
     }
   }
   .widget_archive {

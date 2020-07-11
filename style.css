@@ -11539,10 +11539,16 @@ article .footer-meta .post-date-author .author * {
 .widget-area .widget_tag_cloud a {
   display: inline-block;
   font-size: 12px !important;
-  color: #fff;
-  background-color: #ff4d64;
+  border: 1px solid #ff4d64;
+  border-radius: 3px;
   padding: 0.4rem 0.5rem;
   margin: 0.2rem;
+}
+
+.widget-area .widget_tag_cloud a:hover {
+  background: #f56e7f;
+  color: #fff;
+  border-radius: 0;
 }
 
 .widget-area .widget_archive > ul {
