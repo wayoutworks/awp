@@ -11005,7 +11005,7 @@ article .read-more_tag {
   display: inline-block;
   background-color: #ff4d64;
   border-radius: 25px;
-  padding: 8px 15px;
+  padding: 10px 20px;
   color: #fff;
   font-weight: 600;
   font-size: 12px;
@@ -11427,12 +11427,42 @@ textarea {
 .page-content,
 .entry-content,
 .entry-summary {
-  margin: 1.5em 0 0;
+  margin: 1.2em 0 0;
 }
 
 .page-links {
   clear: both;
   margin: 0 0 1.5em;
+}
+
+article .footer-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #eae9e7;
+  margin-top: 16px;
+  padding-top: 16px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+article .footer-meta .post-date-author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+article .footer-meta .post-date-author img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin-right: 8px;
+}
+
+article .footer-meta .post-date-author .author * {
+  display: block;
 }
 
 /* Comments

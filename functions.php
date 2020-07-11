@@ -135,6 +135,17 @@ function awp_widgets_init() {
 			'before_title'  => '<h6 class="widget-title">',
 			'after_title'   => '</h6>',
 		)
+    );
+    register_sidebar(
+		array(
+			'name'          => esc_html__( 'Footer Widget', 'awp' ),
+			'id'            => 'footer-widget',
+			'description'   => esc_html__( 'Add widgets here.', 'awp' ),
+			'before_widget' => '<div id="%1$s" class="footer-widget widget %2$s">',
+			'after_widget'  => '</div>',
+			'before_title'  => '<h6 class="widget-title">',
+			'after_title'   => '</h6>',
+		)
 	);
 }
 add_action( 'widgets_init', 'awp_widgets_init' );
@@ -204,6 +215,9 @@ if ( ! file_exists( get_template_directory() . '/inc/class-wp-bootstrap-navwalke
 // Replaces the excerpt "Read More" text by a link
 function awp_excerpt_more($more) {
     global $post;
- return '<p><a class="read-more_tag" href="'. get_permalink($post->ID) . '"> Continue Reading</a></p>';
+ return '<p class="text-right"><a class="read-more_tag " href="'. get_permalink($post->ID) . '"> Continue Reading <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M8.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.793 8 8.146 5.354a.5.5 0 0 1 0-.708z"/>
+  <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5H11a.5.5 0 0 1 0 1H4.5A.5.5 0 0 1 4 8z"/>
+</svg></a></p>';
 }
 add_filter('excerpt_more', 'awp_excerpt_more');

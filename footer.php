@@ -13,6 +13,11 @@
 </div><!-- .row -->
 </div><!-- .container -->
 
+
+<div id="secondary" class="widget-area col-sm">
+	<?php dynamic_sidebar( 'footer-widget' ); ?>
+</div><!-- #secondary -->
+
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'awp' ) ); ?>">

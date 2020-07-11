@@ -23,23 +23,7 @@
         ?>
     <div class="card-body col-md-7">
 	<header class="entry-header">
-		<?php
-		$categories_list = get_the_category_list( esc_html__( ', ', 'awp' ) );
-        if ( $categories_list ) {
-            /* translators: 1: list of categories. */
-            printf( '<span class="cat-links">' . esc_html__( '%1$s', 'awp' ) . '</span>', $categories_list ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
-        }
-			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
-
-		if ( 'post' === get_post_type() ) :
-			?>
-			<div class="entry-meta">
-				<?php
-				awp_posted_on();
-				awp_posted_by();
-				?>
-			</div><!-- .entry-meta -->
-		<?php endif; ?>
+		<?php the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' ); ?>
 	</header><!-- .entry-header -->
 
 
@@ -69,7 +53,24 @@
 			)
 		);
 		?>
-	</div><!-- .entry-content -->
+    </div><!-- .entry-content -->
+    <div class="footer-meta">
+        <div class="post-date-author">
+            <img src="<?php echo esc_url( get_avatar_url( 'ID') ); ?>" />
+            <div class="author">
+                <a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ); ?>" title="<?php echo esc_attr( get_the_author() ); ?>"><?php the_author(); ?></a>
+                <span class="entry-date"><?php echo get_the_date(); ?></span>
+            </div>
+        </div>
+        <div class="cat-meta">
+            <?php
+                $categories_list = get_the_category_list( esc_html__( ', ', 'awp' ) );
+                if ( $categories_list ) {
+                    printf( '<span class="cat-links">' . esc_html__( '%1$s', 'awp' ) . '</span>', $categories_list ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+                }
+            ?>
+        </div>
+    </div>
 </div><!--.card-body -->
     </div><!--.row -->
 </article><!-- #post-<?php the_ID(); ?> -->
