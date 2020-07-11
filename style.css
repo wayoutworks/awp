@@ -10975,6 +10975,24 @@ button.close {
   font-family: "Playfair Display", serif;
 }
 
+article .blog-thumbnail {
+  display: inline-block;
+  overflow: hidden;
+}
+
+article .blog-thumbnail img {
+  display: block;
+  transition: transform .3s;
+}
+
+article .blog-thumbnail:hover img {
+  transform: scale(1.1);
+  will-change: transform;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: transform 0.3s cubic-bezier(0.76, 0.35, 0.32, 0.79);
+}
+
 article header.entry-header .entry-title a {
   color: #000;
 }
@@ -11442,7 +11460,7 @@ textarea {
 .widget-area .sidebar-block {
   border: 1px solid #eae9e7;
   padding: 0 37px 18px;
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
 }
 
 .widget-area .sidebar-block:first-child {

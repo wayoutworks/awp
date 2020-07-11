@@ -85,6 +85,27 @@ $theme-colors: (
 }
 
 article {
+    .blog-thumbnail {
+        display: inline-block;
+        overflow: hidden;
+        img {
+            display: block;
+            transition: transform .3s;
+        }
+        &:hover img {
+            -webkit-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            transform: scale(1.1);
+            will-change: transform;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            -webkit-transition: -webkit-transform .3s cubic-bezier(.76,.35,.32,.79);
+            transition: -webkit-transform .3s cubic-bezier(.76,.35,.32,.79);
+            -o-transition: transform .3s cubic-bezier(.76,.35,.32,.79);
+            transition: transform .3s cubic-bezier(.76,.35,.32,.79);
+            transition: transform .3s cubic-bezier(.76,.35,.32,.79),-webkit-transform .3s cubic-bezier(.76,.35,.32,.79);
+        }
+    }
   header.entry-header {
     .entry-title {
       a {
