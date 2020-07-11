@@ -47,16 +47,12 @@
         ?>
     </div>
 </nav>
-        <div class="container">
-        <div class="row">
-          <div class="header-image" style="background-image: url(<?php header_image(); ?>);">
-            <div class="col-lg-6">
-              <div class="site-branding">
+
+<div class="header-image" style="background-image: url(<?php header_image(); ?>);">
+
+            <div class="site-branding w-50 mx-auto">
                 <h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
                 <p class="site-description"><?php bloginfo( 'description' ); ?></p>
-              </div>
             </div>
-          </div>
-        </div>
-      </div>
+</div>
 	</header><!-- #masthead -->

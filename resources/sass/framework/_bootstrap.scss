@@ -47,8 +47,8 @@ $theme-colors: (
   background-size: cover;
   background-position: center center;
   height: auto;
-  padding-top: 250px;
-  padding-bottom: 250px;
+  padding-top: 300px;
+  padding-bottom: 300px;
   & {
     position: relative;
     z-index: 1;
@@ -114,6 +114,23 @@ article {
     }
     .entry-meta {
       margin-bottom: ($spacer * 2);
+    }
+  }
+  .read-more_tag {
+      display: inline-block;
+    background-color: $primary;
+    border-radius: 25px;
+    padding: 8px 15px;
+    color: $white;
+    font-weight: 600;
+    font-size: 12px;
+    &:focus,
+    &:visited {
+        color: $white;
+    }
+    &:hover {
+        background-color: $primary-light;
+        color: $white;
     }
   }
 }

@@ -198,3 +198,10 @@ if ( ! file_exists( get_template_directory() . '/inc/class-wp-bootstrap-navwalke
     // File exists... require it.
     require_once get_template_directory() . '/inc/class-wp-bootstrap-navwalker.php';
 }
+
+// Replaces the excerpt "Read More" text by a link
+function awp_excerpt_more($more) {
+    global $post;
+ return '<p><a class="read-more_tag" href="'. get_permalink($post->ID) . '"> Continue Reading</a></p>';
+}
+add_filter('excerpt_more', 'awp_excerpt_more');
