@@ -3,9 +3,30 @@
   padding: 2rem 0;
 }
 .footer-widget {
-  background-color: #232323;
-  color: #f7f7f7db;
+  .container {
+    padding-top: 4rem;
+  }
+  background-color: #222222;
+  color: #f7f7f7;
   select {
     max-width: 100%;
+    padding: 5px;
+  }
+  form {
+    .search-submit {
+      padding: 0.5rem 0.6rem;
+      border-radius: 1px;
+    }
+    .search-field {
+      padding: 3px 10px;
+      margin-bottom: 10px;
+    }
+  }
+  .textwidget {
+    p {
+      img {
+        margin: 10px 0px 10px 0px;
+      }
+    }
   }
 }
