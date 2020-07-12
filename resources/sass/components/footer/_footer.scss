@@ -1,4 +1,11 @@
 .site-footer {
-    border-top: 1px solid $accent;
-    padding: 2rem 0;
+  border-top: 1px solid $accent;
+  padding: 2rem 0;
+}
+.footer-widget {
+  background-color: #232323;
+  color: #f7f7f7db;
+  select {
+    max-width: 100%;
+  }
 }
