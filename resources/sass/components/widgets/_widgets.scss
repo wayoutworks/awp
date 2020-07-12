@@ -21,9 +21,12 @@
     border: 1px solid $accent;
     padding: 0 37px 18px;
     margin-bottom: 4rem;
-    overflow-wrap: break-word;
+    // overflow-wrap: break-word;
     &:first-child {
       margin-top: 5rem;
+    }
+    div {
+        overflow: auto;
     }
   }
   .widget-title {
@@ -41,6 +44,7 @@
   }
   ul {
     margin-left: 0;
+    overflow: auto;
     li {
       margin-bottom: ($spacer * 0.6);
     }

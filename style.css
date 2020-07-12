@@ -11501,11 +11501,14 @@ article .footer-meta .post-date-author .author * {
   border: 1px solid #eae9e7;
   padding: 0 37px 18px;
   margin-bottom: 4rem;
-  overflow-wrap: break-word;
 }
 
 #secondary.widget-area .sidebar-block:first-child {
   margin-top: 5rem;
+}
+
+#secondary.widget-area .sidebar-block div {
+  overflow: auto;
 }
 
 #secondary.widget-area .widget-title {
@@ -11524,6 +11527,7 @@ article .footer-meta .post-date-author .author * {
 
 #secondary.widget-area ul {
   margin-left: 0;
+  overflow: auto;
 }
 
 #secondary.widget-area ul li {
