@@ -12,3 +12,8 @@ textarea {
 
 @import "headings";
 @import "copy";
+
+a:link,
+a:visited {
+    transition: all .3s ease 0s;
+}

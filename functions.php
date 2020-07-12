@@ -141,10 +141,21 @@ function awp_widgets_init() {
 			'name'          => esc_html__( 'Footer Widget', 'awp' ),
 			'id'            => 'footer-widget',
 			'description'   => esc_html__( 'Add widgets here.', 'awp' ),
-			'before_widget' => '<div id="%1$s" class="footer-widget widget %2$s">',
+			'before_widget' => '<div id="%1$s" class="col-lg-3 col-md-6 col-12  widget %2$s">',
 			'after_widget'  => '</div>',
-			'before_title'  => '<h6 class="widget-title">',
-			'after_title'   => '</h6>',
+			'before_title'  => '<h6 class="widget-title"><span>',
+			'after_title'   => '</span></h6>',
+		)
+    );
+    register_sidebar(
+		array(
+			'name'          => esc_html__( 'Footer Bottom Widget', 'awp' ),
+			'id'            => 'footer_bottom_widget',
+			'description'   => esc_html__( 'Add widgets here.', 'awp' ),
+			'before_widget' => '<div id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</div>',
+			'before_title'  => '<h6 class="widget-title"><span>',
+			'after_title'   => '</span></h6>',
 		)
 	);
 }

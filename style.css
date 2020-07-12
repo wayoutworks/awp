@@ -11111,6 +11111,11 @@ big {
   font-size: 125%;
 }
 
+a:link,
+a:visited {
+  transition: all .3s ease 0s;
+}
+
 /* Elements
 --------------------------------------------- */
 
@@ -11469,46 +11474,41 @@ article .footer-meta .post-date-author .author * {
 /* Widgets
 --------------------------------------------- */
 
-.widget-area {
+#secondary.widget-area {
   padding-left: 3rem;
 }
 
-.widget-area .widget {
-  padding-bottom: 0;
-  padding-right: 0;
-  padding-top: 3rem;
-}
-
-.widget-area .widget label {
+#secondary.widget-area .widget label {
   display: block;
 }
 
-.widget-area .widget input,
-.widget-area .widget select {
+#secondary.widget-area .widget input,
+#secondary.widget-area .widget select {
   width: 100%;
   max-width: 100%;
   padding: 0.8rem 1rem;
 }
 
-.widget-area .widget input {
+#secondary.widget-area .widget input {
   color: #f8f9fa;
 }
 
-.widget-area .widget input[type="submit"] {
+#secondary.widget-area .widget input[type="submit"] {
   font-weight: 600;
 }
 
-.widget-area .sidebar-block {
+#secondary.widget-area .sidebar-block {
   border: 1px solid #eae9e7;
   padding: 0 37px 18px;
   margin-bottom: 4rem;
+  overflow-wrap: break-word;
 }
 
-.widget-area .sidebar-block:first-child {
+#secondary.widget-area .sidebar-block:first-child {
   margin-top: 5rem;
 }
 
-.widget-area .widget-title {
+#secondary.widget-area .widget-title {
   font-family: "Catamaran", sans-serif;
   font-size: 0.9rem;
   text-transform: uppercase;
@@ -11522,45 +11522,84 @@ article .footer-meta .post-date-author .author * {
   z-index: 5;
 }
 
-.widget-area ul {
+#secondary.widget-area ul {
   margin-left: 0;
 }
 
-.widget-area ul li {
+#secondary.widget-area ul li {
   margin-bottom: 0.6rem;
 }
 
-.widget-area .widget_tag_cloud a {
+#secondary.widget-area .widget_tag_cloud a {
   display: inline-block;
   font-size: 12px !important;
-  border: 1px solid #ff4d64;
-  border-radius: 3px;
+  font-weight: 600;
+  border: 2px solid #eae9e7;
   padding: 0.4rem 0.5rem;
   margin: 0.2rem;
+  color: #404040;
 }
 
-.widget-area .widget_tag_cloud a:hover {
-  background: #f56e7f;
+#secondary.widget-area .widget_tag_cloud a:hover {
+  background: #ff4d64;
   color: #fff;
-  border-radius: 0;
+  border: 2px solid transparent;
 }
 
-.widget-area .widget_archive > ul {
+#secondary.widget-area .widget_archive > ul {
   list-style: none;
   padding-left: 0;
   margin-left: 0;
 }
 
-.widget-area .widget_archive > ul > li {
+#secondary.widget-area .widget_archive > ul > li {
   display: flex;
   justify-content: space-between;
   padding: 7px;
 }
 
-.widget-area .widget_archive > ul > li:hover,
-.widget-area .widget_archive > ul > li:focus,
-.widget-area .widget_archive > ul > li:active {
+#secondary.widget-area .widget_archive > ul > li:hover,
+#secondary.widget-area .widget_archive > ul > li:focus,
+#secondary.widget-area .widget_archive > ul > li:active {
   background-color: #e9ecef;
+}
+
+.footer-widget {
+  background-color: #eae9e7;
+}
+
+.footer-widget .widget-area {
+  padding-left: 0;
+}
+
+.footer-widget .widget {
+  overflow-wrap: break-word;
+  padding: 2rem 2rem 0 2rem;
+}
+
+.footer-widget .widget:last-child {
+  border-right: 0;
+}
+
+.footer-widget .widget .widget-title {
+  display: block;
+  position: static;
+  padding-left: 0;
+  font-weight: 800;
+  border-bottom: 1px solid #eae9e7;
+}
+
+.footer-widget .widget .widget-title span {
+  border-bottom: 1px solid #343a40;
+  display: inline-block;
+  margin-bottom: -1px;
+  padding-bottom: 1rem;
+}
+
+.footer-widget .widget ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 /* Media
@@ -11652,6 +11691,14 @@ article .footer-meta .post-date-author .author * {
 
 .gallery-caption {
   display: block;
+}
+
+/* Footer
+--------------------------------------------- */
+
+.site-footer {
+  border-top: 1px solid #eae9e7;
+  padding: 2rem 0;
 }
 
 /*--------------------------------------------------------------

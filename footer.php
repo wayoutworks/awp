@@ -13,25 +13,32 @@
 </div><!-- .row -->
 </div><!-- .container -->
 
+<?php if ( is_active_sidebar( 'footer-widget' ) ) : ?>
+    <div class="footer-widget">
+        <div class="container">
+            <div class="widget-area row">
+                <?php dynamic_sidebar( 'footer-widget' ); ?>
+            </div><!-- #secondary -->
+        </div>
+    </div>
+<?php endif; ?>
 
-<div id="secondary" class="widget-area col-sm">
-	<?php dynamic_sidebar( 'footer-widget' ); ?>
-</div><!-- #secondary -->
-
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'awp' ) ); ?>">
+<footer id="colophon" class="site-footer">
+    <div class="container">
+            <div class="site-info col-12">
+                <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'awp' ) ); ?>">
 				<?php
 				/* translators: %s: CMS name, i.e. WordPress. */
 				printf( esc_html__( 'Proudly powered by %s', 'awp' ), 'WordPress' );
 				?>
 			</a>
 			<span class="sep"> | </span>
-				<?php
+            <?php
 				/* translators: 1: Theme name, 2: Theme author. */
 				printf( esc_html__( 'Theme: %1$s by %2$s.', 'awp' ), 'awp', '<a href="https://lucenthemes.com/">Luncent Themes</a>' );
 				?>
 		</div><!-- .site-info -->
+    </div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
