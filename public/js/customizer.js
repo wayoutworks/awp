@@ -144,7 +144,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
+throw new Error("Module build failed (from ./node_modules/css-loader/dist/cjs.js):\nModuleBuildError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\nSassError: Undefined variable: \"$secondary-font\".\n        on line 83 of resources/sass/framework/_bootstrap.scss\n        from line 67 of /Users/akshatdev/Local Sites/awpd01/app/public/wp-content/themes/awp/resources/sass/style.scss\n>>   font-family: $secondary-font;\n\n   ---------------^\n\n    at runLoaders (/Users/akshatdev/Local Sites/awpd01/app/public/wp-content/themes/awp/node_modules/webpack/lib/NormalModule.js:316:20)\n    at /Users/akshatdev/Local Sites/awpd01/app/public/wp-content/themes/awp/node_modules/loader-runner/lib/LoaderRunner.js:367:11\n    at /Users/akshatdev/Local Sites/awpd01/app/public/wp-content/themes/awp/node_modules/loader-runner/lib/LoaderRunner.js:233:18\n    at context.callback (/Users/akshatdev/Local Sites/awpd01/app/public/wp-content/themes/awp/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at Object.render [as callback] (/Users/akshatdev/Local Sites/awpd01/app/public/wp-content/themes/awp/node_modules/sass-loader/dist/index.js:73:7)\n    at Object.done [as callback] (/Users/akshatdev/Local Sites/awpd01/app/public/wp-content/themes/awp/node_modules/neo-async/async.js:8067:18)\n    at options.error (/Users/akshatdev/Local Sites/awpd01/app/public/wp-content/themes/awp/node_modules/node-sass/lib/index.js:294:32)");
 
 /***/ }),
 
@@ -155,8 +155,8 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /mnt/c/Users/Naveen/Local Sites/agility-wp/app/public/wp-content/themes/awp/resources/js/customizer.js */"./resources/js/customizer.js");
-module.exports = __webpack_require__(/*! /mnt/c/Users/Naveen/Local Sites/agility-wp/app/public/wp-content/themes/awp/resources/sass/style.scss */"./resources/sass/style.scss");
+__webpack_require__(/*! /Users/akshatdev/Local Sites/awpd01/app/public/wp-content/themes/awp/resources/js/customizer.js */"./resources/js/customizer.js");
+module.exports = __webpack_require__(/*! /Users/akshatdev/Local Sites/awpd01/app/public/wp-content/themes/awp/resources/sass/style.scss */"./resources/sass/style.scss");
 
 
 /***/ })
