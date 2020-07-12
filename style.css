@@ -10971,10 +10971,6 @@ button.close {
   font-weight: 800;
 }
 
-.blog-section-title {
-  font-family: "Playfair Display", serif;
-}
-
 article .blog-thumbnail {
   display: inline-block;
   overflow: hidden;
@@ -11424,6 +11420,10 @@ textarea {
 .page-links {
   clear: both;
   margin: 0 0 1.5em;
+}
+
+article:first-child {
+  margin-top: 5rem;
 }
 
 article .card-body {

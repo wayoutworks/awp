@@ -18,9 +18,6 @@ get_header();
 <div class="container">
     <div class="row mb-5">
         <div class="col-lg-8 col-12 pl-lg-0">
-        <h2 class="blog-section-title pb-4 mb-4 pt-4 mt-4 font-italic border-bottom">
-            <?php printf( __( 'From the <span class="font-weight-bold">%s</span>', 'awp' ), get_bloginfo ( 'name' ) ); ?>
-        </h2>
 	<main id="primary" class="site-main">
 
 		<?php
