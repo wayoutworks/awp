@@ -1,7 +1,58 @@
 .comment-content a {
-	word-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .bypostauthor {
-	display: block;
+  display: block;
+}
+.comment-respond {
+  background: #f7f7f7;
+  padding: 3rem 4rem;
+  border-radius: 3px;
+  .comment-form-comment {
+    textarea {
+      padding: 1rem 1.5rem;
+      margin-top: 0.5rem;
+      box-sizing: border-box;
+      font-size: 14px;
+      border-radius: 1px;
+      height: 140px;
+      border: none;
+    }
+    .comment-form-author {
+      input {
+        margin-top: 0.5rem;
+        border-radius: 2px;
+        padding: 0.5rem 1rem;
+        font-size: 14px;
+        border: none;
+      }
+    }
+    .comment-form-email {
+      input {
+        margin-top: 0.5rem;
+        border-radius: 2px;
+        padding: 0.5rem 1rem;
+        font-size: 14px;
+        border: none;
+      }
+    }
+    .comment-form-url {
+      input {
+        margin-top: 0.5rem;
+        border-radius: 2px;
+        padding: 0.5rem 1rem;
+        font-size: 14px;
+        border: none;
+      }
+    }
+    .form-submit {
+      input {
+        width: 100%;
+        padding: 1rem 1rem;
+        border-radius: 2px;
+        border: none;
+      }
+    }
+  }
 }
