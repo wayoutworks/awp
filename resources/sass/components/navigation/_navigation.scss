@@ -95,15 +95,22 @@
 	}
 
 	.nav-links {
-		display: flex;
-	}
-
-	.nav-previous {
-		flex: 1 0 50%;
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
 	}
 
 	.nav-next {
 		text-align: end;
-		flex: 1 0 50%;
+    }
+    .nav-next,
+    .nav-previous {
+        background-color: $accent;
+        height: 100%;
+        padding: 3rem;
+        -webkit-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;
 	}
+
 }
