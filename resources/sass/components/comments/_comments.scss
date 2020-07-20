@@ -113,3 +113,19 @@
     }
   }
 }
+.comment-respond {
+  form {
+    textarea {
+      border-radius: 5px;
+    }
+
+    p {
+      .submit {
+        padding: 0.8rem 1.6rem;
+        border-radius: 2px;
+        font-weight: 600;
+        font-size: 14px;
+      }
+    }
+  }
+}
