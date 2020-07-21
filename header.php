@@ -24,16 +24,35 @@
 <?php wp_body_open(); ?>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'awp' ); ?></a>
-
 	<header id="masthead" class="site-header">
     <nav class="navbar navbar-expand-lg navbar-light" role="navigation">
   <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href="<?php bloginfo( 'url' ); ?>"><?php bloginfo( 'name' ); ?></a>
+ 
+        <div class="site-logo">
+                    <?php if( has_custom_logo() ):  ?>
+                        <?php 
+                            $custom_logo_id = get_theme_mod( 'custom_logo' );
+                            $custom_logo_data = wp_get_attachment_image_src( $custom_logo_id , 'full' );
+                            $custom_logo_url = $custom_logo_data[0];
+                        ?>
+
+                        <a href="<?php echo esc_url( home_url( '/', 'https' ) ); ?>" 
+                        title="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" 
+                        rel="home">
+
+                            <img src="<?php echo esc_url( $custom_logo_url ); ?>" 
+                                 alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>"/>
+
+                        </a>
+                    <?php else: ?>
+                        <a class="navbar-brand" title="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" href="<?php  bloginfo( 'url' ); ?>"><?php bloginfo( 'name' ); ?></a>
+                    <?php endif; ?>
+                </div>
         <?php
+
         wp_nav_menu( array(
             'theme_location'    => 'primary',
             'depth'             => 2,
@@ -49,10 +68,9 @@
 </nav>
 
 <div class="header-image" style="background-image: url(<?php header_image(); ?>);">
-
-            <div class="site-branding w-50 mx-auto">
-                <h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
-                <p class="site-description"><?php bloginfo( 'description' ); ?></p>
-            </div>
+    <div class="site-branding w-50 mx-auto">
+        <h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
+        <p class="site-description"><?php bloginfo( 'description' ); ?></p>
+    </div>
 </div>
 	</header><!-- #masthead -->
