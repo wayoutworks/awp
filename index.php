@@ -16,8 +16,8 @@ get_header();
 ?>
 
 <div class="container">
-    <div class="row mb-5">
-        <div class="col-lg-8 col-12 pl-lg-0">
+	<div class="row mb-5">
+		<div class="col-lg-8 col-12 pl-lg-0">
 	<main id="primary" class="site-main">
 
 		<?php
@@ -40,7 +40,7 @@ get_header();
 				 * If you want to override this in a child theme, then include a file
 				 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
 				 */
-				get_template_part( 'template-parts/content');
+				get_template_part( 'template-parts/content' );
 
 			endwhile;
 
@@ -53,8 +53,8 @@ get_header();
 		endif;
 		?>
 
-    </main><!-- #main -->
-    </div>
+	</main><!-- #main -->
+	</div>
 
 <?php
 get_sidebar();
