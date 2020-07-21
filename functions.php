@@ -185,6 +185,10 @@ function awp_scripts()
 }
 add_action('wp_enqueue_scripts', 'awp_scripts');
 
+/**
+ * Custom Header for this theme.
+ */
+require get_template_directory() . '/inc/custom-header.php';
 
 /**
  * Custom template tags for this theme.
