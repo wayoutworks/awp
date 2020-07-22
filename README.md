@@ -93,6 +93,17 @@ Ans. There are various method where you can hands on this theme
 - You can clone this repo and follow the instruction
 - You can also visit to the website for download
 
+**Q6. Can we request for specific features and if we can then what will be the procedure?**
+
+Ans. Yes, you can request for a specific feature by creating <a href="https://github.com/wayoutworks/awp/issues/new?assignees=&labels=&template=feature_request.md&title=">Feature Request</a>. The implemmentation of that feature will be based on how many users are asking for that feature and that feature will not invite any future conflict or security issues.
+
+
+**Q7. Where to report bugs (if any) in the Theme?**
+
+Ans. You can create issues in this repository by clicking on <a href="https://github.com/wayoutworks/awp/issues/new?assignees=&labels=&template=bug_report.md&title=">Create Bugs</a>
+
+
+
 ### Creators
 
 **Naveen Kharwar**
