@@ -62,3 +62,15 @@ External resources linked to the theme.
 - [Bootstrap](https://github.com/twbs/bootstrap) v5.0.0-alpha1 - MIT License
 - [Propperjs](https://popper.js.org/) v2.4.4 - MIT License
 - [Bootstrap Icon](https://icons.getbootstrap.com/) v1.0.0-alpha5 -  MIT License
+
+### Creators
+
+Naveen Kharwar 
+- https://naveenkharwar.dev
+- https://twitter.com/naveenkharwar0
+
+Akshat Gupta
+- http://akshatgupta.me
+- https://www.behance.net/helloakshat
+
+<p align="center">An WayOutWorks Product, Made with ☕</p>
