@@ -2,7 +2,7 @@
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/wayoutworks/awp?label=We%20are%20Just) ![GitHub](https://img.shields.io/github/license/wayoutworks/awp?label=Proudly%20Open%20Source) ![WordPress Theme Version](https://img.shields.io/wordpress/theme/v/awp?label=Theme%20Version) ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/wayoutworks/awp)
 
-Just Another Fantastic WordPress Theme for your new WordPress website build by some amazing young thoughts from the community.
+Just Another Fantastic WordPress Theme for your new WordPress website built by some amazing young thoughts from the community.
 
 # Agility WP
 
@@ -16,24 +16,26 @@ Just Another Fantastic WordPress Theme for your new WordPress website build by s
 **Requires PHP:** 5.6  
 **Stable tag:** 0.0.1
 
-Agility WP Theme is an blizzing fast theme for Bloggers, Business, WooCommerce, and Portfolio, etc. Build on the top of Bootstrap 5 with some amazing customization option. best Suited for any bussiness.
+Agility WP Theme is a blazing fast theme for Bloggers, Business, WooCommerce, and Portfolio, etc. Build on the top of Bootstrap 5 with some amazing customization options. best Suited for any business.
 
 ## Description
 
-Agility WP is a WordPress Theme that is designed for real case scenarios. Agility is following some world-class UI and UX Rules to best fit for Bloggers, E-Commerce, Marketing, Portfolio websites.
-Agility WP is highly customizable and SEO Friendly. Agility WP is tested for Good SEO and Performance. We focus more to make this Theme Lightweight, SEO Friendly, and blazing fast.
-The theme is having a clean UI that attracts many of its users.
+Agility WP is a WordPress Theme that is designed for real case scenarios. Agility is following some world-class UI and UX Rules to best fit for Bloggers, E-Commerce, Marketing, Portfolio websites. 
 
-We did a good job in making Agility WP Responsive, Cross-Browser Support, WooCommerce Ready, Gutenberg, Eleementor, DIVI, Breaver Ready, Always UP TO DATE concerning current WordPress Version.
+Agility WP is highly customizable and SEO Friendly. Agility WP is tested for Good SEO and Performance. We focus more to make this Theme Lightweight, SEO Friendly and blazing fast. The theme is having a clean UI that attracts many of its users.
 
-Looking for an amazing WordPress Theme for your new website which has 24x7 Support and continues improvemnt? Welcome to LucenWorld.
+We did a good job of making Agility WP Responsive, Cross-Browser Support, WooCommerce Ready, Gutenberg, Eleementor, DIVI, Beaver Ready, Always UP TO DATE concerning current WordPress Version.
+
+Looking for an amazing WordPress Theme for your new website which has 24x7 Support and continuous improvement? 
+Welcome to LucenWorld.
+
 
 ## Installation
 
 ### From within WordPress
 
 1. Visit "Appearance > Themes > Add New"
-2. Search for "Agilty WP"
+2. Search for "Agility WP"
 3. Install and activate
 
 ### Using FTP
@@ -78,4 +80,4 @@ External resources linked to the theme.
 <p align="center">
 <img width="90" src="https://avatars0.githubusercontent.com/u/67482313?s=400&u=0058defa98c37122fc6f7e7cc88559a8340d2b1f&v=4">
 </p>
-<p align="center">An WayOutWorks Product, Made with ☕</p>
+<p align="center">A WayOutWorks Product, Made with ☕</p>
