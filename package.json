@@ -18,13 +18,10 @@
   },
   "devDependencies": {
     "@wordpress/scripts": "^12.0.0",
-    "cross-env": "^7.0.2",
     "dir-archiver": "^1.1.1",
-    "laravel-mix": "^5.0.4",
     "node-sass": "^4.14.0",
     "resolve-url-loader": "^3.1.0",
-    "rtlcss": "^2.5.0",
-    "vue-template-compiler": "^2.6.11"
+    "rtlcss": "^2.5.0"
   },
   "rtlcssConfig": {
     "options": {
@@ -40,12 +37,14 @@
     "map": false
   },
   "scripts": {
-    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "build-css": "node-sass --include-path scss resources/sass/style.scss style.min.css --output-style compressed",
+    "development": "cross-env NODE_ENV=development webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "cross-env NODE_ENV=production webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "watch": "npm run development -- --watch",
     "compile:rtl": "rtlcss style.css style-rtl.css",
-    "lint:scss": "wp-scripts lint-style 'sass/**/*.scss'",
-    "lint:js": "wp-scripts lint-js 'js/*.js'",
-    "bundle": "dir-archiver --src . --dest ../_s.zip --exclude .DS_Store .stylelintrc.json .eslintrc .git .gitattributes .github .gitignore README.md composer.json composer.lock node_modules vendor package-lock.json package.json .travis.yml phpcs.xml.dist sass style.css.map"
+    "lint:scss": "wp-scripts lint-style 'resources/sass/**/*.scss'",
+    "lint:js": "wp-scripts lint-js 'resources/js/*.js'",
+    "bundle": "dir-archiver --src . --dest ../awp.zip --exclude .DS_Store .stylelintrc.json .eslintrc .git .gitattributes .github .gitignore README.md composer.json composer.lock node_modules vendor package-lock.json package.json .travis.yml phpcs.xml.dist resources mix-manifest.json webpack.mix.js style.css.map"
   },
   "dependencies": {
     "@popperjs/core": "^2.4.4",
