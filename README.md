@@ -42,3 +42,23 @@ Looking for an amazing WordPress Theme for your new website which has 24x7 Suppo
 4. Login to WordPress Dashboard.
 5. Select the Appearance screen, then Themes.
 6. Look for Agility WP and Activate it.
+
+## Copyright and License
+External resources linked to the theme.
+
+### Font
+
+- [Catamaran](https://fonts.google.com/specimen/Catamaran) Font by Pria Ravichandran under Open Font License.
+- [Quicksand](https://fonts.google.com/specimen/Quicksand) Font by Andrew Paglinawan under Open Font License.
+
+### Screenshot Licenses
+
+- Header Image - [https://pixabay.com/photos/laptop-coffee-arm-desktop-notebook-1205256/](https://pixabay.com/photos/laptop-coffee-arm-desktop-notebook-1205256/).  
+- Post Image - [https://pixabay.com/photos/office-home-glasses-workspace-820390/](https://pixabay.com/photos/office-home-glasses-workspace-820390/).
+- Screenshot.jpg - GNU General Public License v2 or later
+
+### Framework and Libraries
+- [Underscores | A Starter Theme for WordPress](https://underscores.me/)  - GPL-2.0 License
+- [Bootstrap](https://github.com/twbs/bootstrap) v5.0.0-alpha1 - MIT License
+- [Propperjs](https://popper.js.org/) v2.4.4 - MIT License
+- [Bootstrap Icon](https://icons.getbootstrap.com/) v1.0.0-alpha5 -  MIT License
