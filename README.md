@@ -1,12 +1,13 @@
-Just Another Fantastic WordPress Theme for your new WordPress website build by some amazing young thoughts from the community.
-
-# Agility WP #
 
 
-
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badge/)    
 
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/wayoutworks/awp?label=We%20are%20Just) ![WordPress Theme Downloads](https://img.shields.io/wordpress/theme/dd/awp?label=Total%20Downloads%20on%20WP.org) ![WordPress Theme Active Installs](https://img.shields.io/wordpress/theme/installs/awp?label=Active%20Installation) ![GitHub](https://img.shields.io/github/license/wayoutworks/awp?label=Proudly%20Open%20Source) ![WordPress Theme Version](https://img.shields.io/wordpress/theme/v/awp?label=Theme%20Version) ![GitHub contributors](https://img.shields.io/github/contributors/wayoutworks/awp) ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/wayoutworks/awp)
+
+Just Another Fantastic WordPress Theme for your new WordPress website build by some amazing young thoughts from the community.
+
+# Agility WP #
 
 **Contributors:** [Naveen Kharwar](https://profiles.wordpress.org/naveenkharwar), [Akshat Gupta](https://profiles.wordpress.org/username) and [LucenThemes](https://profiles.wordpress.org/lucenthemes)  
 **License:** GNU General Public License v2 or later  
