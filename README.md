@@ -17,7 +17,6 @@ Just Another Fantastic WordPress Theme for your new WordPress website build by s
 **Stable tag:** 0.0.1  
 
 ## Description
----
 
 Agility WP is a WordPress Theme that is designed for real case scenarios. Agility is following some world-class UI and UX Rules to best fit for Bloggers, E-Commerce, Marketing, Portfolio websites.
 Agility WP is highly customizable and SEO Friendly. Agility WP is tested for Good SEO and Performance. We focus more to make this Theme Lightweight, SEO Friendly, and blazing fast.
