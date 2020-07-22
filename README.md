@@ -73,4 +73,7 @@ Akshat Gupta
 - http://akshatgupta.me
 - https://www.behance.net/helloakshat
 
+<p align="center">
+<img width="90" src="https://avatars0.githubusercontent.com/u/67482313?s=400&u=0058defa98c37122fc6f7e7cc88559a8340d2b1f&v=4">
+</p>
 <p align="center">An WayOutWorks Product, Made with ☕</p>
