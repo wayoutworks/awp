@@ -65,11 +65,11 @@ External resources linked to the theme.
 
 ### Creators
 
-Naveen Kharwar 
+**Naveen Kharwar**
 - https://naveenkharwar.dev
 - https://twitter.com/naveenkharwar0
 
-Akshat Gupta
+**Akshat Gupta**
 - http://akshatgupta.me
 - https://www.behance.net/helloakshat
 
