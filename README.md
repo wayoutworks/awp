@@ -70,18 +70,23 @@ External resources linked to the theme.
 ### Frequently Asked Question
 
 **Q1. Why to use AgilityWP Theme?**
+
 Ans. AgilityWP Theme is just not a theme, it is pack of power, speed, and realibility. This is still in early phase but lucentheme asures you we will deliver what we are promising with our user.
 
 **Q2. Is AgilityWP is free?**
+
 Ans. AgilityWP is free and always will be free. You will be charged only for DEMO which is totally up to you, whether you want to use the DEMO or not. You can simply use AgilityWP as it is.
 
 **Q3. Why is the version of AgilityWP starts from v0.01?**
+
 Ans. As we mentioned above AgilityWP theme is in its early phase, and we want to improve our theme as much as possible by the version 1.00 releases.
 
 **Q4. Where can we get support for this theme?**
+
 Ans. You can always visit to the WordPress forum of the AgilityWP Theme.
 
 **Q5. Where can I download AgilityWP theme?**
+
 Ans. There are various method where you can hands on this theme
 
 - You can download theme from WordPress Repository
