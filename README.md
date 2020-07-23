@@ -102,6 +102,13 @@ Ans. Yes, you can request for a specific feature by creating <a href="https://gi
 
 Ans. You can create issues in this repository by clicking on <a href="https://github.com/wayoutworks/awp/issues/new?assignees=&labels=&template=bug_report.md&title=">Create Bugs</a>
 
+**Q8. Why we decided to not using JQuery in the AgilityWP Theme?**
+
+Ans.  JQuery adds many functionality in the themes and which makes easier for the developer to impliment on the themes but the down side of using JQuery is, it increases load time of the themes, and makes the theme little heavier. As we mailny focus on speed, so if using any library or framworks increases the load time we will not use them anymore, until and unless if that libraries or framworks are very essential for bunch of functionalities.
+
+**Q9. Is AgilityWP ready for Bootstrap 5?**
+
+Ans. Yes it is ready for Bootstrap 5.
 
 
 ### Creators
