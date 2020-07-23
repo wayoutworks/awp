@@ -69,9 +69,9 @@ External resources linked to the theme.
 
 ### Frequently Asked Question
 
-**Q1. Why to use AgilityWP Theme?**
+**Q1. Why use AgilityWP Theme?**
 
-Ans. AgilityWP Theme is just not a theme, it is pack of power, speed, and realibility. This is still in early phase but lucentheme asures you we will deliver what we are promising with our user.
+Ans. AgilityWP Theme is just not a theme, it is a pack of power, speed, and reliability. This is still in an early phase but lucentheme assures you we will deliver what we are promising with our user.
 
 **Q2. Is AgilityWP is free?**
 
@@ -79,32 +79,31 @@ Ans. AgilityWP is free and always will be free. You will be charged only for DEM
 
 **Q3. Why is the version of AgilityWP starts from v0.01?**
 
-Ans. As we mentioned above AgilityWP theme is in its early phase, and we want to improve our theme as much as possible by the version 1.00 releases.
+Ans. As we mentioned above AgilityWP theme is in its early phase, and we want to improve our theme as much as possible by version 1.00 releases.
 
 **Q4. Where can we get support for this theme?**
 
-Ans. You can always visit to the WordPress forum of the AgilityWP Theme.
+Ans. You can always visit the WordPress forum of the AgilityWP Theme.
 
-**Q5. Where can I download AgilityWP theme?**
+**Q5. Where can I download the AgilityWP theme?**
 
-Ans. There are various method where you can hands on this theme
+Ans. There are a various method where you can download this theme
 
-- You can download theme from WordPress Repository
+- You can download the theme from WordPress Repository
 - You can clone this repo and follow the instruction
-- You can also visit to the website for download
+- You can also visit the website for download
 
-**Q6. Can we request for specific features and if we can then what will be the procedure?**
+**Q6. Can we request specific features and if we can then what will be the procedure?**
 
-Ans. Yes, you can request for a specific feature by creating <a href="https://github.com/wayoutworks/awp/issues/new?assignees=&labels=&template=feature_request.md&title=">Feature Request</a>. The implemmentation of that feature will be based on how many users are asking for that feature and that feature will not invite any future conflict or security issues.
-
+Ans. Yes, you can request a specific feature by creating <a href="https://github.com/wayoutworks/awp/issues/new?assignees=&labels=&template=feature_request.md&title=">Feature Request</a>. The implementation of that feature will be based on how many users are asking for that feature and that feature will not invite any future conflict or security issues.
 
 **Q7. Where to report bugs (if any) in the Theme?**
 
 Ans. You can create issues in this repository by clicking on <a href="https://github.com/wayoutworks/awp/issues/new?assignees=&labels=&template=bug_report.md&title=">Create Bugs</a>
 
-**Q8. Why we decided to not using JQuery in the AgilityWP Theme?**
+**Q8. Why did we decide to not using JQuery in the AgilityWP Theme?**
 
-Ans.  JQuery adds many functionality in the themes and which makes easier for the developer to impliment on the themes but the down side of using JQuery is, it increases load time of the themes, and makes the theme little heavier. As we mailny focus on speed, so if using any library or framworks increases the load time we will not use them anymore, until and unless if that libraries or framworks are very essential for bunch of functionalities.
+Ans.  JQuery adds many functionalities in the themes and which makes it easier for the developer to implement on the themes but the downside of using JQuery is, it increases the load time of the themes and makes the theme little heavier. As we mainly focus on speed, so if using any library or frameworks increases the load time we will not use them anymore, until and unless if that libraries or frameworks are very essential for a bunch of functionalities.
 
 **Q9. Is AgilityWP ready for Bootstrap 5?**
 
