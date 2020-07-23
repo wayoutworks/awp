@@ -165,7 +165,7 @@ add_action( 'widgets_init', 'awp_widgets_init' );
  * Enqueue scripts and styles.
  */
 function awp_scripts() {
-	wp_enqueue_style( 'awp-style', get_stylesheet_uri(), array(), AWP_VERSION );
+	wp_enqueue_style( 'awp-style', get_template_directory_uri() . '/style.min.css' , array(), AWP_VERSION );
 	wp_style_add_data( 'awp-style', 'rtl', 'replace' );
 
 	wp_enqueue_script( 'awp-navigation', get_template_directory_uri() . '/public/js/navigation.js', array(), AWP_VERSION, true );
