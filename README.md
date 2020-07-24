@@ -67,6 +67,49 @@ External resources linked to the theme.
 - [Propperjs](https://popper.js.org/) v2.4.4 - MIT License
 - [Bootstrap Icon](https://icons.getbootstrap.com/) v1.0.0-alpha5 -  MIT License
 
+### Frequently Asked Question
+
+**Q1. Why use AgilityWP Theme?**
+
+Ans. AgilityWP Theme is just not a theme, it is a pack of power, speed, and reliability. This is still in an early phase but lucentheme assures you we will deliver what we are promising with our user.
+
+**Q2. Is AgilityWP is free?**
+
+Ans. AgilityWP is free and always will be free. You will be charged only for DEMO which is totally up to you, whether you want to use the DEMO or not. You can simply use AgilityWP as it is.
+
+**Q3. Why is the version of AgilityWP starts from v0.01?**
+
+Ans. As we mentioned above AgilityWP theme is in its early phase, and we want to improve our theme as much as possible by version 1.00 releases.
+
+**Q4. Where can we get support for this theme?**
+
+Ans. You can always visit the WordPress forum of the AgilityWP Theme.
+
+**Q5. Where can I download the AgilityWP theme?**
+
+Ans. There are a various method where you can download this theme
+
+- You can download the theme from WordPress Repository
+- You can clone this repo and follow the instruction
+- You can also visit the website for download
+
+**Q6. Can we request specific features and if we can then what will be the procedure?**
+
+Ans. Yes, you can request a specific feature by creating <a href="https://github.com/wayoutworks/awp/issues/new?assignees=&labels=&template=feature_request.md&title=">Feature Request</a>. The implementation of that feature will be based on how many users are asking for that feature and that feature will not invite any future conflict or security issues.
+
+**Q7. Where to report bugs (if any) in the Theme?**
+
+Ans. You can create issues in this repository by clicking on <a href="https://github.com/wayoutworks/awp/issues/new?assignees=&labels=&template=bug_report.md&title=">Create Bugs</a>
+
+**Q8. Why did we decide to not using JQuery in the AgilityWP Theme?**
+
+Ans.  JQuery adds many functionalities in the themes and which makes it easier for the developer to implement on the themes but the downside of using JQuery is, it increases the load time of the themes and makes the theme little heavier. As we mainly focus on speed, so if using any library or frameworks increases the load time we will not use them anymore, until and unless if that libraries or frameworks are very essential for a bunch of functionalities.
+
+**Q9. Is AgilityWP ready for Bootstrap 5?**
+
+Ans. Yes it is ready for Bootstrap 5.
+
+
 ### Creators
 
 **Naveen Kharwar**
