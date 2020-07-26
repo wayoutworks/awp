@@ -1,70 +1,126 @@
-[![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)
+[![Open Source Love](https://badges.frapsoft.com/os/v3/open-source-175x29.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
-_s
-===
+![GitHub repo size](https://img.shields.io/github/repo-size/wayoutworks/awp?label=We%20are%20Just) ![GitHub](https://img.shields.io/github/license/wayoutworks/awp?label=Proudly%20Open%20Source) ![WordPress Theme Version](https://img.shields.io/wordpress/theme/v/awp?label=Theme%20Version) ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/wayoutworks/awp)
 
-Hi. I'm a starter theme called `_s`, or `underscores`, if you like. I'm a theme meant for hacking so don't use me as a Parent Theme. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
+Just Another Fantastic WordPress Theme for your new WordPress website built by some amazing young thoughts from the community.
 
-My ultra-minimal CSS might make me look like theme tartare but that means less stuff to get in your way when you're designing your awesome theme. Here are some of the other more interesting things you'll find here:
+# Agility WP
 
-* A modern workflow with a pre-made command-line interface to turn your project into a more pleasant experience.
-* A just right amount of lean, well-commented, modern, HTML5 templates.
-* A custom header implementation in `inc/custom-header.php`. Just add the code snippet found in the comments of `inc/custom-header.php` to your `header.php` template.
-* Custom template tags in `inc/template-tags.php` that keep your templates clean and neat and prevent code duplication.
-* Some small tweaks in `inc/template-functions.php` that can improve your theming experience.
-* A script at `js/navigation.js` that makes your menu a toggled dropdown on small screens (like your phone), ready for CSS artistry. It's enqueued in `functions.php`.
-* 2 sample layouts in `sass/layouts/` made using CSS Grid for a sidebar on either side of your content. Just uncomment the layout of your choice in `sass/style.scss`.
-Note: `.no-sidebar` styles are automatically loaded.
-* Smartly organized starter CSS in `style.css` that will help you to quickly get your design off the ground.
-* Full support for `WooCommerce plugin` integration with hooks in `inc/woocommerce.php`, styling override woocommerce.css with product gallery features (zoom, swipe, lightbox) enabled.
-* Licensed under GPLv2 or later. :) Use it to make something cool.
+<img src="https://user-images.githubusercontent.com/37496983/88190996-95c31580-cc58-11ea-885e-bb6b6cba22ec.png">
 
-Installation
----------------
+**Contributors:** [Naveen Kharwar](https://profiles.wordpress.org/naveenkharwar), [Akshat Gupta](https://profiles.wordpress.org/username) and [LucenThemes](https://profiles.wordpress.org/lucenthemes)  
+**License:** GNU General Public License v2 or later  
+**License URI:** https://www.gnu.org/licenses/gpl-2.0.html  
+**Tags:** custom-menu, custom-logo, entertainment, featured-images, full-width-template, one-column, two-columns, left-sidebar, e-commerce, right-sidebar, custom-colors, editor-style, featured-images, full-width-template, microformats, post-formats, rtl-language-support, theme-options, threaded-comments, translation-ready, blog  
+**Tested up to:** 5.4.2  
+**Requires PHP:** 5.6  
+**Stable tag:** 0.0.1
 
-### Requirements
+Agility WP Theme is a blazing fast theme for Bloggers, Business, WooCommerce, and Portfolio, etc. Build on the top of Bootstrap 5 with some amazing customization options. best Suited for any business.
 
-`_s` requires the following dependencies:
+## Description
 
-- [Node.js](https://nodejs.org/)
-- [Composer](https://getcomposer.org/)
+Agility WP is a WordPress Theme that is designed for real case scenarios. Agility is following some world-class UI and UX Rules to best fit for Bloggers, E-Commerce, Marketing, Portfolio websites. 
 
-### Quick Start
+Agility WP is highly customizable and SEO Friendly. Agility WP is tested for Good SEO and Performance. We focus more to make this Theme Lightweight, SEO Friendly and blazing fast. The theme is having a clean UI that attracts many of its users.
 
-Clone or download this repository, change its name to something else (like, say, `megatherium-is-awesome`), and then you'll need to do a six-step find and replace on the name in all the templates.
+We did a good job of making Agility WP Responsive, Cross-Browser Support, WooCommerce Ready, Gutenberg, Eleementor, DIVI, Beaver Ready, Always UP TO DATE concerning current WordPress Version.
 
-1. Search for `'_s'` (inside single quotations) to capture the text domain and replace with: `'megatherium-is-awesome'`.
-2. Search for `_s_` to capture all the functions names and replace with: `megatherium_is_awesome_`.
-3. Search for `Text Domain: _s` in `style.css` and replace with: `Text Domain: megatherium-is-awesome`.
-4. Search for <code>&nbsp;_s</code> (with a space before it) to capture DocBlocks and replace with: <code>&nbsp;Megatherium_is_Awesome</code>.
-5. Search for `_s-` to capture prefixed handles and replace with: `megatherium-is-awesome-`.
-6. Search for `_S_` (in uppercase) to capture constants and replace with: `MEGATHERIUM_IS_AWESOME_`.
+Looking for an amazing WordPress Theme for your new website which has 24x7 Support and continuous improvement? 
+Welcome to LucenWorld.
 
-Then, update the stylesheet header in `style.css`, the links in `footer.php` with your own information and rename `_s.pot` from `languages` folder to use the theme's slug. Next, update or delete this readme.
 
-### Setup
+## Installation
 
-To start using all the tools that come with `_s`  you need to install the necessary Node.js and Composer dependencies :
+### From within WordPress
 
-```sh
-$ composer install
-$ npm install
-```
+1. Visit "Appearance > Themes > Add New"
+2. Search for "Agility WP"
+3. Install and activate
 
-### Available CLI commands
+### Using FTP
 
-`_s` comes packed with CLI commands tailored for WordPress theme development :
+1. Download [Agility WP](https://www.wordpress.org/themes/awp) 
+2. Using an FTP client to access your host web server and navigate to /wp-content/themes/ directory.
+3. Upload the Theme folder (awp.zip) to this directory on your host server.
+4. Login to WordPress Dashboard.
+5. Select the Appearance screen, then Themes.
+6. Look for Agility WP and Activate it.
 
-- `composer lint:wpcs` : checks all PHP files against [PHP Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/php/).
-- `composer lint:php` : checks all PHP files for syntax errors.
-- `composer make-pot` : generates a .pot file in the `language/` directory.
-- `npm run compile:css` : compiles SASS files to css.
-- `npm run compile:rtl` : generates an RTL stylesheet.
-- `npm run watch` : watches all SASS files and recompiles them to css when they change.
-- `npm run lint:scss` : checks all SASS files against [CSS Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/css/).
-- `npm run lint:js` : checks all JavaScript files against [JavaScript Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/javascript/).
-- `npm run bundle` : generates a .zip archive for distribution, excluding development and system files.
+## Copyright and License
+External resources linked to the theme.
 
-Now you're ready to go! The next step is easy to say, but harder to do: make an awesome WordPress theme. :)
+### Font
 
-Good luck!
+- [Catamaran](https://fonts.google.com/specimen/Catamaran) Font by Pria Ravichandran under Open Font License.
+- [Quicksand](https://fonts.google.com/specimen/Quicksand) Font by Andrew Paglinawan under Open Font License.
+
+### Screenshot Licenses
+
+- Header Image - [https://pixabay.com/photos/laptop-coffee-arm-desktop-notebook-1205256/](https://pixabay.com/photos/laptop-coffee-arm-desktop-notebook-1205256/).  
+- Post Image - [https://pixabay.com/photos/office-home-glasses-workspace-820390/](https://pixabay.com/photos/office-home-glasses-workspace-820390/).
+- Screenshot.jpg - GNU General Public License v2 or later
+
+### Framework and Libraries
+- [Underscores | A Starter Theme for WordPress](https://underscores.me/)  - GPL-2.0 License
+- [Bootstrap](https://github.com/twbs/bootstrap) v5.0.0-alpha1 - MIT License
+- [Propperjs](https://popper.js.org/) v2.4.4 - MIT License
+- [Bootstrap Icon](https://icons.getbootstrap.com/) v1.0.0-alpha5 -  MIT License
+
+### Frequently Asked Question
+
+**Q1. Why use AgilityWP Theme?**
+
+Ans. AgilityWP Theme is just not a theme, it is a pack of power, speed, and reliability. This is still in an early phase but lucentheme assures you we will deliver what we are promising with our user.
+
+**Q2. Is AgilityWP is free?**
+
+Ans. AgilityWP is free and always will be free. You will be charged only for DEMO which is totally up to you, whether you want to use the DEMO or not. You can simply use AgilityWP as it is.
+
+**Q3. Why is the version of AgilityWP starts from v0.01?**
+
+Ans. As we mentioned above AgilityWP theme is in its early phase, and we want to improve our theme as much as possible by version 1.00 releases.
+
+**Q4. Where can we get support for this theme?**
+
+Ans. You can always visit the WordPress forum of the AgilityWP Theme.
+
+**Q5. Where can I download the AgilityWP theme?**
+
+Ans. There are a various method where you can download this theme
+
+- You can download the theme from WordPress Repository
+- You can clone this repo and follow the instruction
+- You can also visit the website for download
+
+**Q6. Can we request specific features and if we can then what will be the procedure?**
+
+Ans. Yes, you can request a specific feature by creating <a href="https://github.com/wayoutworks/awp/issues/new?assignees=&labels=&template=feature_request.md&title=">Feature Request</a>. The implementation of that feature will be based on how many users are asking for that feature and that feature will not invite any future conflict or security issues.
+
+**Q7. Where to report bugs (if any) in the Theme?**
+
+Ans. You can create issues in this repository by clicking on <a href="https://github.com/wayoutworks/awp/issues/new?assignees=&labels=&template=bug_report.md&title=">Create Bugs</a>
+
+**Q8. Why did we decide to not using JQuery in the AgilityWP Theme?**
+
+Ans.  JQuery adds many functionalities in the themes and which makes it easier for the developer to implement on the themes but the downside of using JQuery is, it increases the load time of the themes and makes the theme little heavier. As we mainly focus on speed, so if using any library or frameworks increases the load time we will not use them anymore, until and unless if that libraries or frameworks are very essential for a bunch of functionalities.
+
+**Q9. Is AgilityWP ready for Bootstrap 5?**
+
+Ans. Yes it is ready for Bootstrap 5.
+
+
+### Creators
+
+**Naveen Kharwar**
+- https://naveenkharwar.dev
+- https://twitter.com/naveenkharwar0
+
+**Akshat Gupta**
+- http://akshatgupta.me
+- https://www.behance.net/helloakshat
+
+<p align="center">
+<img width="90" src="https://avatars0.githubusercontent.com/u/67482313?s=400&u=0058defa98c37122fc6f7e7cc88559a8340d2b1f&v=4">
+</p>
+<p align="center">A WayOutWorks Product, Made with ☕</p>

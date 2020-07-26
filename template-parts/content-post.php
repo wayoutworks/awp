@@ -23,6 +23,7 @@
 		<p><?php echo get_the_date(); ?></p>
 	</div>
 	<div class="col-sm-4">
+		<?php /* translators: 1: number of categories. */ ?>
 		<p><?php printf( _nx( 'One Comment', '%1$s Comments', get_comments_number(), 'comments title', 'awp' ), number_format_i18n( get_comments_number() ) ); ?></p>
 		<span><a href="<?php the_permalink(); ?>#commentform">Join The Conversation</a></span>
 	</div>
@@ -37,7 +38,7 @@
 	?>
 	<header class="entry-header">
 		<?php 
-		$awp_categories_list = get_the_category_list( esc_html__( ' ', 'awp' ) );
+		$awp_categories_list = get_the_category_list();
 		if ( $awp_categories_list ) {
 			/* translators: 1: list of categories. */
 			printf( '<span class="cat-links">' . esc_html__( '%1$s', 'awp' ) . '</span>', $awp_categories_list ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
