@@ -4,5 +4,5 @@ public
 style.css
 build
 awp.zip
-
+*.map
 .DS_Store
