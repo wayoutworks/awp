@@ -18,8 +18,9 @@
   },
   "devDependencies": {
     "@wordpress/scripts": "^12.0.0",
-    "dir-archiver": "^1.1.1",
     "grunt": "^1.2.1",
+    "grunt-contrib-compress": "^1.6.0",
+    "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-cssmin": "^3.0.0",
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-watch": "^1.1.0",
@@ -40,14 +41,9 @@
     "map": false
   },
   "scripts": {
-    "build-css": "node-sass --include-path scss resources/sass/style.scss style.min.css --output-style compressed",
-    "development": "cross-env NODE_ENV=development webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "production": "cross-env NODE_ENV=production webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "watch": "npm run development -- --watch",
     "compile:rtl": "rtlcss style.css style-rtl.css",
     "lint:scss": "wp-scripts lint-style 'resources/sass/**/*.scss'",
-    "lint:js": "wp-scripts lint-js 'resources/js/*.js'",
-    "bundle": "dir-archiver --src . --dest ../awp.zip --exclude .DS_Store .stylelintrc.json .eslintrc .git .gitattributes .github .gitignore README.md composer.json composer.lock node_modules vendor package-lock.json package.json .travis.yml phpcs.xml.dist resources mix-manifest.json webpack.mix.js style.css.map"
+    "lint:js": "wp-scripts lint-js 'resources/js/*.js'"
   },
   "dependencies": {
     "@popperjs/core": "^2.4.4",

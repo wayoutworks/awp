@@ -2,3 +2,6 @@ node_modules
 vendor
 public
 style.css
+build
+
+.DS_Store

@@ -1,39 +1,57 @@
-=== Agility WP ===
-
-Contributors: automattic
-Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
-
-Requires at least: 4.5
-Tested up to: 5.4
-Requires PHP: 5.6
-Stable tag: 1.0.0
+== Agility WP ==
+Contributors: naveenkharwar, helloakshat and LucenThemes
 License: GNU General Public License v2 or later
-License URI: LICENSE
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Tags: custom-menu, custom-logo, entertainment, featured-images, full-width-template, one-column, two-columns, left-sidebar, e-commerce, right-sidebar, custom-colors, editor-style, featured-images, full-width-template, microformats, post-formats, rtl-language-support, theme-options, threaded-comments, translation-ready, blog
+Tested up to: 5.4.2
+Requires PHP: 5.6 or higher
+Stable tag: 0.0.1
 
-A starter theme called Agility WP.
+Agility WP Theme is a blazing fast theme for Bloggers, Business, WooCommerce, and Portfolio, etc. Build on the top of Bootstrap 5 with some amazing customization options. best Suited for any business.
 
 == Description ==
 
-WordPress Theme
+Agility WP is a WordPress Theme that is designed for real case scenarios. Agility is following some world-class UI and UX Rules to best fit for Bloggers, E-Commerce, Marketing, Portfolio websites.
+Agility WP is highly customizable and SEO Friendly. Agility WP is tested for Good SEO and Performance. We focus more to make this Theme Lightweight, SEO Friendly and blazing fast. The theme is having a clean UI that attracts many of its users.
+We did a good job of making Agility WP Responsive, Cross-Browser Support, WooCommerce Ready, Gutenberg, Eleementor, DIVI, Beaver Ready, Always UP TO DATE concerning current WordPress Version.
+Looking for an amazing WordPress Theme for your new website which has 24x7 Support and continuous improvement? Welcome to LucenWorld.
 
 == Installation ==
 
-1. In your admin panel, go to Appearance > Themes and click the Add New button.
-2. Click Upload Theme and Choose File, then select the theme's .zip file. Click Install Now.
-3. Click Activate to use your new theme right away.
+From within WordPress
+1. Visit "Appearance > Themes > Add New"
+2. Search for "Agility WP"
+3. Install and activate
+Using FTP
+1. Download Agility WP
+2. Using an FTP client to access your host web server and navigate to /wp-content/themes/ directory.
+3. Upload the Theme folder (awp.zip) to this directory on your host server.
+4. Login to WordPress Dashboard.
+5. Select the Appearance screen, then Themes.
+6. Look for Agility WP and Activate it.
 
-== Frequently Asked Questions ==
 
-= Does this theme support any plugins? =
+== Copyright and License External resources linked to the theme. ==
 
-Agility WP includes support for WooCommerce and for Infinite Scroll in Jetpack.
+= Font =
+
+* Catamaran Font by Pria Ravichandran under Open Font License.
+* Quicksand Font by Andrew Paglinawan under Open Font License.
+
+= Screenshot Licenses =
+
+* Header Image - https://pixabay.com/photos/laptop-coffee-arm-desktop-notebook-1205256/.
+* Post Image - https://pixabay.com/photos/office-home-glasses-workspace-820390/.
+* Screenshot.jpg - GNU General Public License v2 or later
+
+= Framework and Libraries =
+
+* Underscores | A Starter Theme for WordPress - GPL-2.0 License
+* Bootstrap v5.0.0-alpha1 - MIT License
+* Propperjs v2.4.4 - MIT License
+* Bootstrap Icon v1.0.0-alpha5 - MIT License
 
 == Changelog ==
 
-= 1.0 - May 12 2015 =
-* Initial release
-
-== Credits ==
-
-* Based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
-* normalize.css https://necolas.github.io/normalize.css/, (C) 2012-2018 Nicolas Gallagher and Jonathan Neal, [MIT](https://opensource.org/licenses/MIT)
+= v0.01 =
+- Initial Release
