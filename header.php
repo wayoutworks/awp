@@ -40,7 +40,7 @@
 							<img src="<?php echo esc_url( $awp_custom_logo_url ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>"/>
 						</a>
 					<?php else : ?>
-						<a class="navbar-brand" title="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" href="<?php bloginfo( 'url' ); ?>"><?php bloginfo( 'name' ); ?></a>
+						<a class="navbar-brand" title="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" href="<?php echo esc_url( home_url() ); ?>"><?php bloginfo( 'name' ); ?></a>
 					<?php endif; ?>
 				</div>
 					<?php

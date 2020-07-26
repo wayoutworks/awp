@@ -24,7 +24,7 @@ module.exports = function(grunt) {
     },
     copy: {
       build: {
-        src: ["**", "!node_modules/**", "!vendor/**", "!Gruntfile.js", "!package.json", "!package-lock.json", "!resources/**", "!composer.json", "!composer.lock", "!phpcs.xml.dist", "!README.md", "!style.css.map"],
+        src: ["**", "!node_modules/**", "!vendor/**", "!Gruntfile.js", "!package.json", "!package-lock.json", "!resources/**", "!composer.json", "!composer.lock", "!phpcs.xml.dist", "!README.md", "!style.css.map", "!woocommerce.css.map"],
         dest: "build/",
       },
       clean: {

@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-07-26T10:05:11+00:00\n"
+"POT-Creation-Date: 2020-07-26T10:08:50+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.5.0-alpha\n"
 "X-Domain: awp\n"
@@ -35,34 +35,28 @@ msgid "https://lucenthemes.com/"
 msgstr ""
 
 #: 404.php:17
-#: build/404.php:17
 msgid "Oops! That page can&rsquo;t be found."
 msgstr ""
 
 #: 404.php:21
-#: build/404.php:21
 msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
 msgstr ""
 
 #: 404.php:30
-#: build/404.php:30
 msgid "Most Used Categories"
 msgstr ""
 
 #. translators: %1$s: smiley
 #: 404.php:48
-#: build/404.php:48
 msgid "Try looking in the monthly archives. %1$s"
 msgstr ""
 
 #. translators: 1: title.
-#: build/comments.php:35
 #: comments.php:35
 msgid "One thought on &ldquo;%1$s&rdquo;"
 msgstr ""
 
 #. translators: 1: comment count number, 2: title.
-#: build/comments.php:41
 #: comments.php:41
 msgctxt "comments title"
 msgid "%1$s thought on &ldquo;%2$s&rdquo;"
@@ -70,120 +64,101 @@ msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] ""
 msgstr[1] ""
 
-#: build/comments.php:68
 #: comments.php:68
 msgid "Comments are closed."
 msgstr ""
 
-#: build/footer.php:29
 #: footer.php:29
 msgid "https://wordpress.org/"
 msgstr ""
 
 #. translators: %s: CMS name, i.e. WordPress.
-#: build/footer.php:32
 #: footer.php:32
 msgid "Proudly powered by %s"
 msgstr ""
 
 #. translators: 1: Theme name, 2: Theme author.
-#: build/footer.php:38
 #: footer.php:38
 msgid "Theme: %1$s by %2$s."
 msgstr ""
 
-#: build/functions.php:53
 #: functions.php:53
 msgid "Primary"
 msgstr ""
 
-#: build/functions.php:130
 #: functions.php:130
 msgid "Sidebar"
 msgstr ""
 
-#: build/functions.php:132
-#: build/functions.php:143
-#: build/functions.php:154
 #: functions.php:132
 #: functions.php:143
 #: functions.php:154
 msgid "Add widgets here."
 msgstr ""
 
-#: build/functions.php:141
 #: functions.php:141
 msgid "Footer Widget"
 msgstr ""
 
-#: build/functions.php:152
 #: functions.php:152
 msgid "Footer Bottom Widget"
 msgstr ""
 
-#: build/functions.php:219
 #: functions.php:219
 msgid "It appears the class-wp-bootstrap-navwalker.php file may be missing."
 msgstr ""
 
-#: build/header.php:25
 #: header.php:25
 msgid "Skip to content"
 msgstr ""
 
-#: build/header.php:29
 #: header.php:29
 msgid "Toggle navigation"
 msgstr ""
 
+#: inc/class-wp-bootstrap-navwalker.php:365
+msgid "Add a menu"
+msgstr ""
+
 #. translators: %s: post date.
-#: build/inc/template-tags.php:30
 #: inc/template-tags.php:30
 msgctxt "post date"
 msgid "Posted on %s"
 msgstr ""
 
 #. translators: %s: post author.
-#: build/inc/template-tags.php:46
 #: inc/template-tags.php:46
 msgctxt "post author"
 msgid "by %s"
 msgstr ""
 
 #. translators: used between list items, there is a space after the comma
-#: build/inc/template-tags.php:63
 #: inc/template-tags.php:63
 msgctxt "list item separator"
 msgid " "
 msgstr ""
 
 #. translators: 1: list of tags.
-#: build/inc/template-tags.php:66
 #: inc/template-tags.php:66
 msgid "Tagged: %1$s"
 msgstr ""
 
 #. translators: %s: post title
-#: build/inc/template-tags.php:76
 #: inc/template-tags.php:76
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr ""
 
 #. translators: %s: Name of current post. Only visible to screen readers
-#: build/inc/template-tags.php:93
-#: build/template-parts/content-page.php:39
 #: inc/template-tags.php:93
 #: template-parts/content-page.php:39
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr ""
 
-#: build/inc/woocommerce.php:184
 #: inc/woocommerce.php:184
 msgid "View your shopping cart"
 msgstr ""
 
 #. translators: number of items in the mini cart.
-#: build/inc/woocommerce.php:188
 #: inc/woocommerce.php:188
 msgid "%d item"
 msgid_plural "%d items"
@@ -191,45 +166,35 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. translators: %s: search query.
-#: build/search.php:23
 #: search.php:23
 msgid "Search Results for: %s"
 msgstr ""
 
-#: build/single.php:25
 #: single.php:25
 msgid "Previous:"
 msgstr ""
 
-#: build/single.php:26
 #: single.php:26
 msgid "Next:"
 msgstr ""
 
-#: build/template-parts/content-none.php:14
 #: template-parts/content-none.php:14
 msgid "Nothing Found"
 msgstr ""
 
 #. translators: 1: link to WP admin new post page.
-#: build/template-parts/content-none.php:24
 #: template-parts/content-none.php:24
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
 
-#: build/template-parts/content-none.php:37
 #: template-parts/content-none.php:37
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
 msgstr ""
 
-#: build/template-parts/content-none.php:44
 #: template-parts/content-none.php:44
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
 msgstr ""
 
-#: build/template-parts/content-page.php:25
-#: build/template-parts/content-post.php:70
-#: build/template-parts/content.php:51
 #: template-parts/content-page.php:25
 #: template-parts/content-post.php:70
 #: template-parts/content.php:51
@@ -237,7 +202,6 @@ msgid "Pages:"
 msgstr ""
 
 #. translators: 1: number of categories.
-#: build/template-parts/content-post.php:27
 #: template-parts/content-post.php:27
 msgctxt "comments title"
 msgid "One Comment"
@@ -246,26 +210,17 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. translators: 1: list of categories.
-#: build/template-parts/content-post.php:44
-#: build/template-parts/content.php:70
 #: template-parts/content-post.php:44
 #: template-parts/content.php:70
 msgid "%1$s"
 msgstr ""
 
 #. translators: %s: Name of current post. Only visible to screen readers
-#: build/template-parts/content-post.php:56
-#: build/template-parts/content.php:37
 #: template-parts/content-post.php:56
 #: template-parts/content.php:37
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr ""
 
-#: build/template-parts/content.php:67
 #: template-parts/content.php:67
 msgid ", "
-msgstr ""
-
-#: inc/class-wp-bootstrap-navwalker.php:365
-msgid "Add a menu"
 msgstr ""
