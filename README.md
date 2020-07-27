@@ -6,7 +6,7 @@ Just Another Fantastic WordPress Theme for your new WordPress website built by s
 
 # Agility WP
 
-<img src="https://user-images.githubusercontent.com/37496983/88190996-95c31580-cc58-11ea-885e-bb6b6cba22ec.png">
+<img src="https://user-images.githubusercontent.com/41269766/88546409-f75cf880-d039-11ea-8007-08ebc5693990.jpg">
 
 **Contributors:** [Naveen Kharwar](https://profiles.wordpress.org/naveenkharwar), [Akshat Gupta](https://profiles.wordpress.org/username) and [LucenThemes](https://profiles.wordpress.org/lucenthemes)
 **License:** GNU General Public License v2 or later
