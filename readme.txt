@@ -40,8 +40,8 @@ Using FTP
 
 = Screenshot Licenses =
 
-* Header Image - https://pixabay.com/photos/laptop-coffee-arm-desktop-notebook-1205256/.
-* Post Image - https://pixabay.com/photos/office-home-glasses-workspace-820390/.
+* Header Image -header.jpg by LucenThemes under GNU General Public License v2 or later
+* Post Image - post.jpg by LucenThemes under GNU General Public License v2 or later
 * Screenshot.jpg - GNU General Public License v2 or later
 
 = Framework and Libraries =
