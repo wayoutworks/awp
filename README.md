@@ -8,6 +8,7 @@ Just Another Fantastic WordPress Theme for your new WordPress website built by s
 
 <img src="https://user-images.githubusercontent.com/41269766/88546409-f75cf880-d039-11ea-8007-08ebc5693990.jpg">
 
+<<<<<<< HEAD
 **Contributors:** [Naveen Kharwar](https://profiles.wordpress.org/naveenkharwar), [Akshat Gupta](https://profiles.wordpress.org/username) and [LucenThemes](https://profiles.wordpress.org/lucenthemes)
 
 **License:** GNU General Public License v2 or later
@@ -21,6 +22,15 @@ Just Another Fantastic WordPress Theme for your new WordPress website built by s
 **Requires PHP:** 5.6
 
 **Stable tag:** 0.0.1
+=======
+**Contributors:** [Naveen Kharwar](https://profiles.wordpress.org/naveenkharwar), [Akshat Gupta](https://profiles.wordpress.org/username) and [LucenThemes](https://profiles.wordpress.org/lucenthemes)  
+**License:** GNU General Public License v2 or later  
+**License URI:** https://www.gnu.org/licenses/gpl-2.0.html  
+**Tags:** custom-menu, custom-logo, entertainment, featured-images, full-width-template, one-column, two-columns, left-sidebar, e-commerce, right-sidebar, custom-colors, editor-style, featured-images, full-width-template, microformats, post-formats, rtl-language-support, theme-options, threaded-comments, translation-ready, blog  
+**Tested up to:** 5.4.2  
+**Requires PHP:** 5.6  
+**Stable tag:** 0.0.1  
+>>>>>>> 136bb3f6051bdab0198ae6720c43c7e3d05d0dc1
 
 Agility WP Theme is a blazing fast theme for Bloggers, Business, WooCommerce, and Portfolio, etc. Build on the top of Bootstrap 5 with some amazing customization options. best Suited for any business.
 

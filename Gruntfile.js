@@ -27,11 +27,6 @@ module.exports = function(grunt) {
         src: ["**", "!node_modules/**", "!vendor/**", "!Gruntfile.js", "!package.json", "!package-lock.json", "!resources/**", "!composer.json", "!composer.lock", "!phpcs.xml.dist", "!README.md", "!style.css.map", "!woocommerce.css.map"],
         dest: "build/",
       },
-      clean: {
-        build: {
-          src: ['build/']
-        }
-      },
     },
     compress: {
       build: {
@@ -46,6 +41,11 @@ module.exports = function(grunt) {
         }]
       }
     },
+    clean: {
+      dist: {
+        src: ['build', 'awp.zip']
+      }
+    },
     watch: {
       css: {
         files: "**/*.scss",
@@ -58,7 +58,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks("grunt-contrib-cssmin");
   grunt.loadNpmTasks("grunt-contrib-copy");
   grunt.loadNpmTasks("grunt-contrib-compress");
+  grunt.loadNpmTasks("grunt-contrib-clean");
 
   // Watch Task
   grunt.registerTask("default", ["watch"]);
+  // Release Task
+  grunt.registerTask("build", ['copy', 'compress']);
 };
