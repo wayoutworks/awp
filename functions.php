@@ -86,6 +86,18 @@ if ( ! function_exists( 'awp_setup' ) ) :
 		// Add theme support for selective refresh for widgets.
 		add_theme_support( 'customize-selective-refresh-widgets' );
 
+		// Add Theme Support for Editor Style.
+		add_theme_support( 'editor-styles' ); 
+		
+		// Add Theme Support for Block Styles.
+		add_theme_support( 'wp-block-styles' );
+
+		// Add Theme Support for Wide and FFull alignment.
+		add_theme_support( 'align-wide' );
+
+		// Add Support for responsive embed.
+		add_theme_support( 'responsive-embeds' );
+		
 		/**
 		 * Add support for core custom logo.
 		 *
@@ -103,6 +115,14 @@ if ( ! function_exists( 'awp_setup' ) ) :
 	}
 endif;
 add_action( 'after_setup_theme', 'awp_setup' );
+
+/**
+ * Enqueue styles for Editor.
+ */
+function awp_block_editor_styles() {
+    wp_enqueue_style( 'awp-editor-styles', get_theme_file_uri( 'assets/css/style-editor.css' ), false, '1.0', 'all' );
+}
+add_action( 'enqueue_block_editor_assets', 'awp_block_editor_styles' );
 
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
