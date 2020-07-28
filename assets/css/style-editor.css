@@ -10,7 +10,7 @@
 }
 
 /* ------------------------------------------- */
-/*	Twenty Twenty Editor Styles — Block Editor
+/*	Agility WP Editor Styles — Block Editor
 /* ------------------------------------------- */
 .editor-styles-wrapper {
   background: #ffffff;
@@ -136,29 +136,33 @@
 
 .editor-post-title__block .editor-post-title__input,
 .editor-styles-wrapper .wp-block h1 {
-  font-size: 36px;
+  font-size: 2.5rem;
   font-weight: 800;
   line-height: 1.138888889;
 }
 
-.editor-styles-wrapper .wp-block h2 {
-  font-size: 32px;
+.editor-styles-wrapper h1 {
+  font-size: 2.5rem;
 }
 
-.editor-styles-wrapper .wp-block h3 {
-  font-size: 28px;
+.editor-styles-wrapper h2 {
+  font-size: 2rem;
 }
 
-.editor-styles-wrapper .wp-block h4 {
-  font-size: 24px;
+.editor-styles-wrapper h3 {
+  font-size: 1.75rem;
 }
 
-.editor-styles-wrapper .wp-block h5 {
-  font-size: 21px;
+.editor-styles-wrapper h4 {
+  font-size: 1.5rem;
 }
 
-.editor-styles-wrapper .wp-block h6 {
-  font-size: 16px;
+.editor-styles-wrapper h5 {
+  font-size: 1.25rem;
+}
+
+.editor-styles-wrapper h6 {
+  font-size: 1rem;
   letter-spacing: 0.03125em;
   text-transform: uppercase;
 }
@@ -173,7 +177,7 @@
 
 /* POST TITLE */
 .wp-block.editor-post-title__block {
-  max-width: 1000px;
+  max-width: 900px;
 }
 
 .editor-styles-wrapper .editor-post-title__block .editor-post-title__input {
