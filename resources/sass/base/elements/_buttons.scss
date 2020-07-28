@@ -18,3 +18,22 @@ input[type="submit"] {
         outline: none;
 	}
 }
+.wp-block-button{
+	.wp-block-button__link{
+		background: $primary;
+		border-color: $primary !important;
+		border-radius: 3px;
+		font-weight: 600;
+	}
+}
+.is-style-outline{
+	.wp-block-button__link{
+		color: $primary !important;
+	}
+}
+// .wp-block-button{
+// 	.is-style-outline{
+// 		border-color: $primary !important;
+// 	}
+
+// }
