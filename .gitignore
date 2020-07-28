@@ -1,9 +1,12 @@
 node_modules
 vendor
 public
+assets
 style.css
+style.css.map
+style.min.css
+style.min.css.map
 build
 awp.zip
-style.css.map
 .DS_Store
 .sass-cache
