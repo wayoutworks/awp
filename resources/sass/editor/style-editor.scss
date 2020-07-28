@@ -6,16 +6,6 @@ $accent-font: "Catamaran", sans-serif;
 $anchor-link_color: "#ff4d64";
 $text_color: "#404040";
 
-.wp-block {
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6{
-        font-family: $font-family-base;
-    }
-}
 /* ------------------------------------------- */
 /*	Agility WP Editor Styles — Block Editor
 /* ------------------------------------------- */
@@ -33,6 +23,9 @@ $text_color: "#404040";
 	color: $text_color;
     font-size: 1rem;
     line-height: 1.5;
+}
+.editor-styles-wrapper [data-type="core/heading"]{
+	font-family: $accent-font;
 }
 
 .block-editor-default-block-appender textarea.block-editor-default-block-appender__content {
