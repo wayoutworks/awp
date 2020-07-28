@@ -1,9 +1,0 @@
-node_modules
-vendor
-public
-style.css
-build
-awp.zip
-style.css.map
-.DS_Store
-.sass-cache
