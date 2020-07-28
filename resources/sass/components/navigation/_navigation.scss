@@ -1,0 +1,47 @@
+.site-logo {
+  img {
+    max-width: 6rem;
+  }
+}
+/* Small menu. */
+.menu-toggle,
+.main-navigation.toggled ul {
+  display: block;
+}
+
+@media screen and (min-width: 37.5em) {
+  .menu-toggle {
+    display: none;
+  }
+
+  .main-navigation ul {
+    display: flex;
+  }
+}
+
+.comment-navigation,
+.posts-navigation,
+.post-navigation {
+  .site-main & {
+    margin: 0 0 1.5em;
+  }
+
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+  }
+
+  .nav-next {
+    text-align: end;
+  }
+  .nav-next,
+  .nav-previous {
+    background-color: $accent;
+    height: 100%;
+    padding: 1rem 2rem;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+}

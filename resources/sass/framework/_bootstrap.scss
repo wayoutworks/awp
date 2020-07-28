@@ -1,0 +1,145 @@
+$font-family-base: "Quicksand", sans-serif !default;
+$accent-font: "Catamaran", sans-serif;
+
+$theme-colors: (
+  "primary": #ff4d64,
+  "secondary": #333333,
+  "accent": #868e96,
+  "light": #f8f9fa,
+) !default;
+
+$primary-light: #f56e7f;
+$input-color: $light;
+
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+
+/**
+  * = AWP Styles
+  *
+  * CSS Styles for Theme
+  *
+  * ------------------------------------------------------------------------- */
+
+/*---------------------------------- *
+   *  Base
+   * -------------------------------- */
+// input {
+//   border-color: $input-border-color;
+//   border-style: solid;
+//   color: $primary;
+//   &:focus {
+//     outline: $primary auto 1px;
+//   }
+// }
+
+/*---------------------------------- *
+   *  Navigation
+   * -------------------------------- */
+
+//   .dropdown:hover .dropdown-menu {
+//     display: block;
+//     margin-top: 0; // remove the gap so it doesn't close
+//  }
+
+.header-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: auto;
+  padding-top: 250px;
+  padding-bottom: 250px;
+  & {
+    position: relative;
+    z-index: 1;
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-color: #00010c;
+    opacity: 0.5;
+  }
+  .site-branding {
+    padding: 50px 40px;
+    color: #fff;
+    bottom: 0;
+    display: block;
+    left: 0;
+    height: auto;
+    padding-top: 0;
+    position: absolute;
+    width: 100%;
+    .site-title {
+      font-weight: 800;
+    }
+  }
+}
+
+article {
+  .blog-thumbnail {
+    display: inline-block;
+    overflow: hidden;
+    img {
+      display: block;
+      transition: transform 0.3s;
+    }
+    &:hover img {
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+      will-change: transform;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      -webkit-transition: -webkit-transform 0.3s
+        cubic-bezier(0.76, 0.35, 0.32, 0.79);
+      transition: -webkit-transform 0.3s cubic-bezier(0.76, 0.35, 0.32, 0.79);
+      -o-transition: transform 0.3s cubic-bezier(0.76, 0.35, 0.32, 0.79);
+      transition: transform 0.3s cubic-bezier(0.76, 0.35, 0.32, 0.79);
+      transition: transform 0.3s cubic-bezier(0.76, 0.35, 0.32, 0.79),
+        -webkit-transform 0.3s cubic-bezier(0.76, 0.35, 0.32, 0.79);
+    }
+  }
+  header.entry-header {
+    .entry-title {
+      a {
+        color: $black;
+      }
+    }
+    .entry-meta {
+      margin-bottom: ($spacer * 2);
+    }
+  }
+  .read-more_tag {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 12px;
+  }
+}
+
+// Post
+
+// .pagination-link {
+//   display: flex;
+//   justify-content: space-between;
+// }
+// footer {
+//   .footer-widgets {
+//     .widget-title {
+//       color: #fff;
+//       margin-bottom: ($spacer * 1.5);
+//     }
+//     .gallery-widget {
+//       span {
+//         font-size: ($font-size-base * 0.8);
+//       }
+//     }
+//   }
+//   .footer-info {
+//     border-top: $gray-700 1px solid;
+//     color: #fff;
+//   }
+// }

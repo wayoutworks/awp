@@ -1,0 +1,131 @@
+.comment-content a {
+  word-wrap: break-word;
+}
+
+.bypostauthor {
+  display: block;
+}
+.comment-respond {
+  background: #f7f7f7;
+  padding: 3rem 4rem;
+  border-radius: 3px;
+  .comment-form-comment {
+    textarea {
+      padding: 1rem 1.5rem;
+      margin-top: 0.5rem;
+      box-sizing: border-box;
+      font-size: 14px;
+      border-radius: 1px;
+      height: 140px;
+      border: none;
+    }
+    .comment-form-author {
+      input {
+        margin-top: 0.5rem;
+        border-radius: 2px;
+        padding: 0.5rem 1rem;
+        font-size: 14px;
+        border: none;
+      }
+    }
+    .comment-form-email {
+      input {
+        margin-top: 0.5rem;
+        border-radius: 2px;
+        padding: 0.5rem 1rem;
+        font-size: 14px;
+        border: none;
+      }
+    }
+    .comment-form-url {
+      input {
+        margin-top: 0.5rem;
+        border-radius: 2px;
+        padding: 0.5rem 1rem;
+        font-size: 14px;
+        border: none;
+      }
+    }
+    .form-submit {
+      input {
+        width: 100%;
+        padding: 1rem 1rem;
+        border-radius: 2px;
+        border: none;
+      }
+    }
+  }
+  .comment-form-url,
+  .comment-form-author,
+  .comment-form-email {
+    width: 30%;
+    margin-right: 3%;
+    float: left;
+    input {
+      & {
+        width: 100%;
+        padding: 6px 12px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.42857143;
+        vertical-align: middle;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 3px;
+        color: rgba(0, 0, 0, 0.8);
+        -webkit-transition: all 0.2s ease-out;
+        -o-transition: all 0.2s ease-out;
+        transition: all 0.2s ease-out;
+      }
+    }
+  }
+  .comment-form-author,
+  .comment-form-email,
+  .comment-form-url {
+    max-width: 320px;
+  }
+}
+
+.comment-list {
+  margin-left: 0;
+  .comment {
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background: #f5f5f5;
+    padding-right: 15px;
+    margin-top: 40px;
+    padding-left: 30px;
+    .comment-body {
+      padding: 20px 0 10px;
+      font-size: 0.8rem;
+      img {
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        & {
+          width: 50px;
+          height: 50px;
+        }
+      }
+      p {
+        color: #777777;
+      }
+    }
+  }
+}
+.comment-respond {
+  form {
+    textarea {
+      border-radius: 5px;
+    }
+
+    p {
+      .submit {
+        padding: 0.8rem 1.6rem;
+        border-radius: 2px;
+        font-weight: 600;
+        font-size: 14px;
+      }
+    }
+  }
+}

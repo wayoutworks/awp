@@ -1,0 +1,41 @@
+.site-footer {
+  background-color: #222;
+  color: #f7f7f7;
+  padding: 2rem 0;
+  border-top: 2px solid #000;
+}
+.footer-widget {
+  .container {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  background-color: #222222;
+  color: #f7f7f7;
+  select {
+    max-width: 100%;
+    padding: 5px;
+  }
+  form {
+    .search-submit {
+      padding: 0.8rem 1.5rem;
+      border-radius: 2px;
+      width: 200px;
+      font-weight: 600;
+    }
+    .search-field {
+      padding: 8px 16px;
+      margin-bottom: 10px;
+      border-radius: 2px;
+      width: 200px;
+      font-size: 14px;
+      color: #222 !important;
+    }
+  }
+  .textwidget {
+    p {
+      img {
+        margin: 10px 0px 10px 0px;
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+	color: $color__text-main;
+	font-family: $font-family-base;
+	font-size: 1rem;
+	line-height: $font__line-height-body;
+}
+
+@import "headings";
+@import "copy";
+
+a:link,
+a:visited {
+    transition: all .3s ease 0s;
+}

@@ -1,0 +1,119 @@
+#secondary.widget-area {
+  padding-left: 3rem;
+  .widget {
+    label {
+      display: block;
+    }
+    input,
+    select {
+      width: 100%;
+      max-width: 100%;
+      padding: ($spacer * 0.8) ($spacer * 1);
+    }
+    input {
+      color: $input-focus-color;
+    }
+    input[type="submit"] {
+      font-weight: 600;
+    }
+  }
+  .sidebar-block {
+    border: 1px solid $accent;
+    padding: 0 37px 18px;
+    margin-bottom: 4rem;
+    &:first-child {
+      margin-top: 5rem;
+    }
+    div {
+      overflow: auto;
+    }
+  }
+  .widget-title {
+    font-family: $accent-font;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    padding: 0 16px;
+    background-color: #fff;
+    z-index: 5;
+  }
+  ul {
+    margin-left: 0;
+    overflow: auto;
+    li {
+      margin-bottom: ($spacer * 0.6);
+    }
+  }
+  .widget_tag_cloud {
+    a {
+      display: inline-block;
+      font-size: 12px !important;
+      font-weight: 600;
+      border: 2px solid $accent;
+      padding: ($spacer * 0.4) ($spacer * 0.5);
+      margin: ($spacer * 0.2);
+      color: $color__text-main;
+      &:hover {
+        background: $primary;
+        color: $white;
+        border: 2px solid transparent;
+      }
+    }
+  }
+  .widget_archive {
+    > ul {
+      list-style: none;
+      padding-left: 0;
+      margin-left: 0;
+      > li {
+        display: flex;
+        justify-content: space-between;
+        padding: 7px;
+        &:hover,
+        &:focus,
+        &:active {
+          background-color: #e9ecef;
+        }
+      }
+    }
+  }
+}
+
+.footer-widget {
+  background-color: $accent;
+  .widget-area {
+    padding-left: 0;
+  }
+  .widget {
+    overflow-wrap: break-word;
+    padding: 2rem 2rem 0 2rem;
+    &:last-child {
+      border-right: 0;
+    }
+    .widget-title {
+      display: block;
+      position: static;
+      padding-left: 0;
+      font-weight: 800;
+      border-bottom: 1px solid $accent;
+      span {
+        border-bottom: 1px solid $dark;
+        display: inline-block;
+        margin-bottom: -1px;
+        padding-bottom: 1rem;
+      }
+    }
+    ul {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+  }
+}
+#secondary.widget-area .search-field {
+  color: #222 !important;
+}
