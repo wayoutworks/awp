@@ -26,6 +26,8 @@ $text_color: #404040;
 }
 .editor-styles-wrapper [data-type="core/heading"]{
 	font-family: $accent-font;
+	margin-top: 0;
+	margin-bottom: 0.5rem;
 }
 
 .block-editor-default-block-appender textarea.block-editor-default-block-appender__content {
@@ -187,7 +189,9 @@ $text_color: #404040;
 .editor-styles-wrapper p[data-type="core/paragraph"] {
 	color: $text_color;
     font-size: 1rem;
-    line-height: 1.5;
+	line-height: 1.5;
+	margin-bottom: 1.5rem;
+	margin-top: 0;
 }
 
 
