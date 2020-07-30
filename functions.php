@@ -9,7 +9,7 @@
 
 if ( ! defined( 'AWP_VERSION' ) ) {
 	// Replace the version number of the theme on each release.
-	define( 'AWP_VERSION', '0.0.1' );
+	define( 'AWP_VERSION', '0.0.2' );
 }
 
 if ( ! function_exists( 'awp_setup' ) ) :
@@ -87,8 +87,8 @@ if ( ! function_exists( 'awp_setup' ) ) :
 		add_theme_support( 'customize-selective-refresh-widgets' );
 
 		// Add Theme Support for Editor Style.
-		add_theme_support( 'editor-styles' ); 
-		
+		add_theme_support( 'editor-styles' );
+
 		// Add Theme Support for Block Styles.
 		add_theme_support( 'wp-block-styles' );
 
@@ -97,7 +97,7 @@ if ( ! function_exists( 'awp_setup' ) ) :
 
 		// Add Support for responsive embed.
 		add_theme_support( 'responsive-embeds' );
-		
+
 		/**
 		 * Add support for core custom logo.
 		 *
@@ -244,7 +244,7 @@ if ( ! file_exists( get_template_directory() . '/inc/class-wp-bootstrap-navwalke
 
 /**
  * Replaces the excerpt "Read More" text by a link.
- * 
+ *
  * @param string $more for blog page.
  * @return Post Link
  */
