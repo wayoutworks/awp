@@ -196,7 +196,7 @@ function awp_scripts() {
 		wp_enqueue_script( 'comment-reply' );
 	}
 
-	wp_enqueue_script( 'awp-bootstrap-js', get_template_directory_uri() . '/public/bootstrap/js/bootstrap.min.js', array(), AWP_VERSION, true );
+	wp_enqueue_script( 'awp-bootstrap-js', get_template_directory_uri() . '/assets/js/bootstrap.min.js', array(), AWP_VERSION, true );
 }
 add_action( 'wp_enqueue_scripts', 'awp_scripts' );
 

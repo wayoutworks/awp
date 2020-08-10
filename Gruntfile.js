@@ -1,4 +1,4 @@
-module.exports = function(grunt) {
+module.exports = function (grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON("package.json"),
     sass: {
@@ -8,7 +8,8 @@ module.exports = function(grunt) {
         },
         files: {
           "style.css": "resources/sass/style.scss",
-          "assets/css/style-editor.css": "resources/sass/editor/style-editor.scss"
+          "assets/css/style-editor.css":
+            "resources/sass/editor/style-editor.scss",
         },
       },
     },
@@ -23,29 +24,54 @@ module.exports = function(grunt) {
         dest: "style.min.css",
       },
     },
+    uglify: {
+      my_target: {
+        files: {
+          "assets/js/bootstrap.min.js": [
+            "node_modules/bootstrap/dist/js/bootstrap.js",
+          ],
+        },
+      },
+    },
     copy: {
       build: {
-        src: ["**", "!node_modules/**", "!vendor/**", "!Gruntfile.js", "!package.json", "!package-lock.json", "!resources/**", "!composer.json", "!composer.lock", "!phpcs.xml.dist", "!README.md", "!style.css.map", "!woocommerce.css.map"],
+        src: [
+          "**",
+          "!node_modules/**",
+          "!vendor/**",
+          "!Gruntfile.js",
+          "!package.json",
+          "!package-lock.json",
+          "!resources/**",
+          "!composer.json",
+          "!composer.lock",
+          "!phpcs.xml.dist",
+          "!README.md",
+          "!style.css.map",
+          "!woocommerce.css.map",
+        ],
         dest: "build/",
       },
     },
     compress: {
       build: {
         options: {
-          archive: 'awp.zip',
+          archive: "awp.zip",
         },
-        files: [{
-          expand: true,
-          cwd: 'build/',
-          src: ['**/*'],
-          dist: '/'
-        }]
-      }
+        files: [
+          {
+            expand: true,
+            cwd: "build/",
+            src: ["**/*"],
+            dist: "/",
+          },
+        ],
+      },
     },
     clean: {
       dist: {
-        src: ['build', 'awp.zip']
-      }
+        src: ["build", "awp.zip"],
+      },
     },
     watch: {
       css: {
@@ -60,9 +86,9 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks("grunt-contrib-copy");
   grunt.loadNpmTasks("grunt-contrib-compress");
   grunt.loadNpmTasks("grunt-contrib-clean");
-
+  grunt.loadNpmTasks("grunt-contrib-uglify");
   // Watch Task
   grunt.registerTask("default", ["watch"]);
   // Release Task
-  grunt.registerTask("build", ['copy', 'compress']);
+  grunt.registerTask("build", ["copy", "compress"]);
 };
