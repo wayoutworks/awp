@@ -5,7 +5,7 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Tags: custom-menu, custom-logo, entertainment, featured-images, full-width-template, one-column, two-columns, left-sidebar, e-commerce, right-sidebar, custom-colors, editor-style, featured-images, full-width-template, microformats, post-formats, rtl-language-support, theme-options, threaded-comments, translation-ready, blog
 Tested up to: 5.4.2
 Requires PHP: 5.6 or higher
-Stable tag: 0.0.1
+Stable tag: 0.0.2
 
 Agility WP Theme is a blazing fast theme for Bloggers, Business, WooCommerce, and Portfolio, etc. Build on the top of Bootstrap 5 with some amazing customization options. best Suited for any business.
 
@@ -52,6 +52,13 @@ Using FTP
 * Bootstrap Icon v1.0.0-alpha5 - MIT License
 
 == Changelog ==
+
+=v0.0.2=
+- Add Style editor
+- Gutenberg Compatible
+-  Categories badge fix
+- Screenshot Change
+- Change Site logo size
 
 = v0.01 =
 - Initial Release

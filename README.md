@@ -9,13 +9,13 @@ Just Another Fantastic WordPress Theme for your new WordPress website built by s
 <img src="https://user-images.githubusercontent.com/41269766/88546409-f75cf880-d039-11ea-8007-08ebc5693990.jpg">
 
 
-**Contributors:** [Naveen Kharwar](https://profiles.wordpress.org/naveenkharwar), [Akshat Gupta](https://profiles.wordpress.org/username) and [LucenThemes](https://profiles.wordpress.org/lucenthemes)  
-**License:** GNU General Public License v2 or later  
-**License URI:** https://www.gnu.org/licenses/gpl-2.0.html  
-**Tags:** custom-menu, custom-logo, entertainment, featured-images, full-width-template, one-column, two-columns, left-sidebar, e-commerce, right-sidebar, custom-colors, editor-style, featured-images, full-width-template, microformats, post-formats, rtl-language-support, theme-options, threaded-comments, translation-ready, blog  
-**Tested up to:** 5.4.2  
-**Requires PHP:** 5.6  
-**Stable tag:** 0.0.1  
+**Contributors:** [Naveen Kharwar](https://profiles.wordpress.org/naveenkharwar), [Akshat Gupta](https://profiles.wordpress.org/username) and [LucenThemes](https://profiles.wordpress.org/lucenthemes)
+**License:** GNU General Public License v2 or later
+**License URI:** https://www.gnu.org/licenses/gpl-2.0.html
+**Tags:** custom-menu, custom-logo, entertainment, featured-images, full-width-template, one-column, two-columns, left-sidebar, e-commerce, right-sidebar, custom-colors, editor-style, featured-images, full-width-template, microformats, post-formats, rtl-language-support, theme-options, threaded-comments, translation-ready, blog
+**Tested up to:** 5.4.2
+**Requires PHP:** 5.6
+**Stable tag:** 0.0.2
 
 
 Agility WP Theme is a blazing fast theme for Bloggers, Business, WooCommerce, and Portfolio, etc. Build on the top of Bootstrap 5 with some amazing customization options. best Suited for any business.
@@ -79,7 +79,7 @@ Ans. AgilityWP Theme is just not a theme, it is a pack of power, speed, and reli
 
 Ans. AgilityWP is free and always will be free. You will be charged only for DEMO which is totally up to you, whether you want to use the DEMO or not. You can simply use AgilityWP as it is.
 
-**Q3. Why is the version of AgilityWP starts from v0.01?**
+**Q3. Why is the version of AgilityWP starts from v0.0.2?**
 
 Ans. As we mentioned above AgilityWP theme is in its early phase, and we want to improve our theme as much as possible by version 1.00 releases.
 
