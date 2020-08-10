@@ -188,7 +188,6 @@ function awp_scripts() {
 	wp_enqueue_style( 'awp-style', get_stylesheet_uri(), array(), AWP_VERSION );
 	wp_style_add_data( 'awp-style', 'rtl', 'replace' );
 
-	wp_enqueue_script( 'awp-navigation', get_template_directory_uri() . '/public/js/navigation.js', array(), AWP_VERSION, true );
 	wp_enqueue_style( 'awp-catamaran-font', '//fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap', array(), AWP_VERSION );
 	wp_enqueue_style( 'awp-quicksend-font', '//fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap', array(), AWP_VERSION );
 
